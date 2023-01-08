@@ -52,7 +52,7 @@ p {
 }
 
 #order-dpmenu {
-  width: 28.5%;
+  width: 96%;
 }
 
 .productsKind {
@@ -71,12 +71,15 @@ p {
 
 .shopwrapperRight {
   display: flex;
-  float: right;
-  width: 58%;
-  position: relative;
-  left: 17%;
+  width: 65vw;
+  padding-top: 0;
+  padding-left: 20%;
+  padding-bottom: 3%;
+  vertical-align: middle;
 }
-
+.shopwrapperRight {
+  text-align: center;
+}
 .order-dropdown,
 .navbar-order {
   display: inline-block;
@@ -86,7 +89,7 @@ p {
 }
 
 /*dropdown*/
-.dropdown-sec {
+.dropdown {
   width: 50%;
 }
 
@@ -106,7 +109,10 @@ p {
   font-size: 18px;
   width: 95%;
 }
-
+.btn:active {
+  background-color: #541052;
+  color: #ffffff;
+}
 .dropdown-menu {
   font-size: 18px;
 }
@@ -158,8 +164,8 @@ input {
   overflow: scroll;
   padding-left: 0;
   position: absolute;
-  left: 29.5%;
-  width: 33%;
+  left: 52%;
+  width: 25%;
 }
 
 .menu li {
@@ -196,7 +202,7 @@ input:checked ~ .menu {
   font-size: 24px;
   display: inline-block;
   width: 75%;
-  margin: 3% 10% 10% 10%;
+  margin: 3% 10% 5% 10%;
 }
 
 ol,
@@ -205,7 +211,7 @@ ul {
 }
 .product {
   width: 32%;
-  padding: 0 2.5% 2.5% 2.5%;
+  padding: 0 2.5% 100px 2.5%;
   display: inline-block;
   vertical-align: middle;
 }
@@ -269,7 +275,7 @@ ul {
     transform: translateY(0);
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 767px) {
   @font-face {
     font-family: "GenJyuuGithicX_Medium";
     src: url(../font/ttf/GenJyuuGothicX-Medium.ttf);
@@ -285,7 +291,7 @@ ul {
     background-image: url(../img/img_fast/Subtract.png),
       url(../img/img_fast/Mask\ group.png);
     background-size: 98%, contain;
-    margin-top: 25vw;
+    margin-top: 10vw;
     background-repeat: no-repeat, no-repeat;
     background-position: 14% 10.1vw, 0% 0vw;
   }
@@ -304,27 +310,28 @@ ul {
 
   /*productsKind*/
   .productsKind {
-    width: 98%;
+    width: 35%;
     float: inherit;
     display: block;
-    margin-top: 20vw;
+    margin: 10% 30% 0 30%;
   }
   .productsKind p {
     font-size: 16px;
-    padding-left: 32%;
-    padding-bottom: 3%;
+    width: 30vw;
+    text-align: center;
+    padding: 20% 3% 0;
+    margin: 0 70vw 0 4vw;
   }
 
   /*shopwrapperRight*/
   .shopwrapperRight {
     display: flex;
-    left: 0;
-    float: center;
-    width: 98%;
+    width: 65vw;
     padding-top: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
     vertical-align: middle;
+    margin: 6px 10vw 0 -9vw;
   }
   .btn,
   .dropdown-menu,
@@ -342,8 +349,8 @@ ul {
     border: 1px solid #8b8b8b;
   }
   .menu {
-    left: 43.5%;
-    width: 49%;
+    right: 40%;
+    width: 30%;
   }
   .menu a {
     text-align: center;
@@ -352,6 +359,13 @@ ul {
   }
   .menu li {
     padding: 3%;
+  }
+  a#order-dpitem {
+    color: #b6b6b6;
+    font-size: 14px;
+    padding-bottom: 4px;
+    padding-right: 0px;
+    padding-left: 5%;
   }
   /*products*/
   .firstLine {
@@ -369,7 +383,7 @@ ul {
 
   .product {
     width: 40%;
-    padding: 0 2.5% 2.5% 2.5%;
+    padding: 2.5% 2.5% 2.5% 2.5%;
     display: inline-block;
     vertical-align: middle;
   }
@@ -391,6 +405,7 @@ ul {
   .hideblock {
     position: absolute;
     width: 40%;
+    height: 27%;
     padding: 3.5% 3% 3.5% 3%;
     overflow: hidden;
     vertical-align: middle;
