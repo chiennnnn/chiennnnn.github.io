@@ -96,119 +96,74 @@
         <p>完成訂購</p>
       </div>
     </div>
-
+    <!--data-->
     <div class="data">
+      <!--order-->
       <div class="order">
         <p class="title-data">訂購人資訊</p>
-        <form class="order">
+        <form>
           <!--表單-->
           <div class="line">
-            <p class="inline-p">公司行號</p>
-            <input
-              type="text"
-              class="line-input"
-              placeholder="-請輸入公司行號-"
-            />
-            <p class="inline-p">訂購人</p>
-            <input type="text" placeholder="-請輸入訂購人姓名-" />
-            <div class="radio-gender">
-              <input type="radio" name="gender" id="male" />
+            <div class="firstlineline-left">
+              <p class="inline-p">公司行號</p>
+              <input type="text" placeholder="-請輸入公司行號-" />
+            </div>
+            <div class="firstline-middle">
+              <p class="inline-p">訂購人</p>
+              <input type="text" placeholder="-請輸入訂購人姓名-" />
+            </div>
+            <div class="firstline-right">
+              <input type="radio" style="zoom: 200%" name="gender" id="male" />
               <label for="male">先生</label>
-              <input type="radio" name="gender" id="female" />
+              <input
+                type="radio"
+                style="zoom: 200%"
+                name="gender"
+                id="female"
+              />
               <label for="female">小姐</label>
             </div>
           </div>
           <div class="line">
-            <p class="inline-p">信箱</p>
-            <input
-              type="text"
-              placeholder="-請輸入電子信箱-"
-              style="width: 93%"
-            />
+            <div class="second-line">
+              <p class="inline-p">信箱</p>
+              <input type="text" placeholder="-請輸入電子信箱-" />
+            </div>
           </div>
           <div class="line">
-            <div class="third-line-left">
-              <p class="inline-p">手機號碼</p>
-              <input
-                type="text"
-                placeholder="-請輸入手機號碼-"
-                class="placeholder"
-              />
-              <p class="notice">
-                * 匯款電話請等同訂購單的手機電話，款項確認後會以簡訊通知您
-              </p>
-            </div>
-            <div class="third-line-right">
-              <p class="inline-p">電話</p>
-              <input
-                type="text"
-                placeholder="-請輸入手機號碼-"
-                class="placeholder"
-              />
-              <p class="notice">
-                *
-                請留下您的電話或手機方便宅配公司聯繫，國外旅客電話可填寫酒店電話
-              </p>
-            </div>
-          </div>
-        </form>
-      </div>
-      <div class="receive">
-        <p class="title-data">收件人資訊</p>
-        <form class="receive">
-          <!--表單-->
-          <input type="checkbox" class="chcheckbox" />
-          收件人資訊資料同訂購人資訊
-          <div class="notice">
-            <div class="first-line-left">
-              <p class="inline-p">收件人</p>
-              <input
-                type="text"
-                style="width: 15vw"
-                placeholder="-請填入收件人姓名-"
-              />
-              <p class="notice">* 因需物流配送，請填寫完整姓名</p>
-              <div class="gender">
-                <input type="radio" name="gender" id="male" />
-                <label for="male">先生</label>
-                <input type="radio" name="gender" id="female" />
-                <label for="female">小姐</label>
-              </div>
-              <div class="line">
+            <div class="third-line">
+              <div class="thirdline-left">
                 <p class="inline-p">手機號碼</p>
-                <input
-                  type="text"
-                  style="width: 15vw"
-                  class="line-width"
-                  placeholder="-請輸入手機號碼-"
-                />
+                <input type="text" placeholder="-請輸入手機號碼-" />
                 <p class="notice">
                   * 匯款電話請等同訂購單的手機電話，款項確認後會以簡訊通知您
                 </p>
+              </div>
+              <div class="thirdline-right">
                 <p class="inline-p">電話</p>
-                <input
-                  type="text"
-                  style="width: 15vw"
-                  placeholder="-請輸入手機號碼-"
-                />
+                <input type="text" placeholder="-請輸入電話號碼-" />
                 <p class="notice">
                   *
                   請留下您的電話或手機方便宅配公司聯繫，國外旅客電話可填寫酒店電話
                 </p>
               </div>
-              <div class="line">
-                <p class="inline-p">地址</p>
+            </div>
+          </div>
+          <div class="line">
+            <div class="forth-line">
+              <p class="inline-p">地址</p>
+              <div class="dropdown-one">
                 <div class="dropdown">
                   <button
                     class="btn btn-secondary dropdown-toggle"
                     type="button"
-                    style="width: 15vw"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
+                    style="width: 100%"
                   >
                     -請選縣市-
                   </button>
-                  <ul class="dropdown-menu">
+                  <ul class="dropdown-menu" style="min-width: 100%">
                     <li><a class="dropdown-item" href="#">基隆縣</a></li>
                     <li><a class="dropdown-item" href="#">臺北市</a></li>
                     <li><a class="dropdown-item" href="#">新北市</a></li>
@@ -229,13 +184,15 @@
                     <li><a class="dropdown-item" href="#">宜蘭縣</a></li>
                   </ul>
                 </div>
+              </div>
+              <div class="dropdown-two">
                 <div class="dropdown">
                   <button
                     class="btn btn-secondary dropdown-toggle"
                     type="button"
-                    style="width: 8vw"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
+                    style="width: 100%"
                   >
                     -區-
                   </button>
@@ -247,77 +204,241 @@
                     </li>
                   </ul>
                 </div>
-                <input
-                  type="text"
-                  style="width: 58%"
-                  placeholder="-請輸入地址-"
-                />
               </div>
-              <div class="line">
-                <div class="arrive-time">
-                  <p class="inline-p">送達時間</p>
-                  <input type="radio" name="arrive-time" id="not-specify" />
-                  <label for="not-specify">不指定</label>
-                  <input type="radio" name="arrive-time" id="morning" />
-                  <label for="morning">10-13時</label>
-                  <input type="radio" name="arrive-time" id="noon" />
-                  <label for="noon">13-18時</label>
-                </div>
-              </div>
-              <div class="line">
-                <div class="receipt">
-                  <p class="inline-p">發票類型</p>
-                  <input type="radio" name="receipt" id="donate" />
-                  <label for="donate">捐贈</label>
-                  <input type="radio" name="receipt" id="bi" />
-                  <label for="morning">二聯式發票</label>
-                  <input type="radio" name="receipt" id="tri" />
-                  <label for="noon">三聯式發票</label>
-                  <input type="text" placeholder="-請輸入統一編碼-" />
-                </div>
-              </div>
-              <div class="line">
-                <p class="inline-p">電子發票載具</p>
-                <input
-                  type="text"
-                  style="width: 40%"
-                  placeholder="-請輸入帳戶號碼(/+7個英數字元)-"
-                />
-
-                <input
-                  type="text"
-                  style="width: 43%"
-                  placeholder="-請重新輸入以驗證-"
-                />
+              <div class="forthline-right">
+                <input type="text" placeholder="-請輸入地址-" />
               </div>
             </div>
           </div>
-          <div class="button">
-            <button
-              type="submit"
-              class="button"
-              onclick="window.open('new_payment.html')"
-            >
-              上一步
-            </button>
-            <button type="submit" class="button" onclick="window.open('#')">
-              下一步
-            </button>
-            <p class="notice">請詳細填寫您的訂購資料喔，填寫完畢請按下一步。</p>
-          </div>
-
-          <div class="bottom-contents">
-            <p>
-              訂單經系統確認無誤後無法自行更改訂單，若有訂單之變更或取消，
-              請務必於到貨日3天前親自來電。若您對於訂單有任何問題，歡迎至客服中心留言，謝謝。
-            </p>
-            <p>
-              如您有任何訂單相關特殊需求需要我們注意，也歡迎使用我們客服中心留下您的問題，我們將會針對您的問題為您服務。
-            </p>
-          </div>
         </form>
       </div>
+      <!--receive-->
+      <div class="receive">
+        <p class="title-data">收件人資訊</p>
+        <form>
+          <!--表單-->
+          <!--checkbox-->
+          <label>
+            <input type="checkbox" style="zoom: 170%" checked />
+            收件人資訊資料同訂購人資訊
+          </label>
+          <!--輸入-->
+          <div class="line">
+            <div class="first-line-bottom">
+              <div class="first-line-left">
+                <p class="inline-p">收件人</p>
+                <input type="text" placeholder="-請填入收件人姓名-" />
+                <p class="notice">* 因需物流配送，請填寫完整姓名</p>
+              </div>
+              <div class="first-line-right">
+                <input
+                  type="radio"
+                  style="zoom: 200%"
+                  name="gender"
+                  id="male"
+                />
+                <label for="male">先生</label>
+                <input
+                  type="radio"
+                  style="zoom: 200%"
+                  name="gender"
+                  id="female"
+                />
+                <label for="female">小姐</label>
+              </div>
+            </div>
+          </div>
+          <div class="line">
+            <div class="third-line">
+              <div class="thirdline-left">
+                <p class="inline-p">手機號碼</p>
+                <input type="text" placeholder="-請輸入手機號碼-" />
+                <p class="notice">
+                  * 匯款電話請等同訂購單的手機電話，款項確認後會以簡訊通知您
+                </p>
+              </div>
+              <div class="thirdline-right">
+                <p class="inline-p">電話</p>
+                <input type="text" placeholder="-請輸入電話號碼-" />
+                <p class="notice">
+                  *
+                  請留下您的電話或手機方便宅配公司聯繫，國外旅客電話可填寫酒店電話
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="line">
+            <div class="forth-line">
+              <p class="inline-p">地址</p>
+              <div class="dropdown-one">
+                <div class="dropdown">
+                  <button
+                    class="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    style="width: 100%"
+                  >
+                    -請選縣市-
+                  </button>
+                  <ul class="dropdown-menu" style="min-width: 100%">
+                    <li><a class="dropdown-item" href="#">基隆縣</a></li>
+                    <li><a class="dropdown-item" href="#">臺北市</a></li>
+                    <li><a class="dropdown-item" href="#">新北市</a></li>
+                    <li><a class="dropdown-item" href="#">桃園市</a></li>
+                    <li><a class="dropdown-item" href="#">新竹縣</a></li>
+                    <li><a class="dropdown-item" href="#">新竹市</a></li>
+                    <li><a class="dropdown-item" href="#">苗栗縣</a></li>
+                    <li><a class="dropdown-item" href="#">臺中市</a></li>
+                    <li><a class="dropdown-item" href="#">南投縣</a></li>
+                    <li><a class="dropdown-item" href="#">彰化縣</a></li>
+                    <li><a class="dropdown-item" href="#">雲林縣</a></li>
+                    <li><a class="dropdown-item" href="#">嘉義縣</a></li>
+                    <li><a class="dropdown-item" href="#">臺南市</a></li>
+                    <li><a class="dropdown-item" href="#">高雄市</a></li>
+                    <li><a class="dropdown-item" href="#">屏東縣</a></li>
+                    <li><a class="dropdown-item" href="#">臺東縣</a></li>
+                    <li><a class="dropdown-item" href="#">花蓮縣</a></li>
+                    <li><a class="dropdown-item" href="#">宜蘭縣</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="dropdown-two">
+                <div class="dropdown">
+                  <button
+                    class="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    style="width: 100%"
+                  >
+                    -區-
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">市區</a></li>
+                    <li><a class="dropdown-item" href="#">偏遠地區</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">自稱是其他縣市的地區</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="forthline-right">
+                <input type="text" placeholder="-請輸入地址-" />
+              </div>
+            </div>
+          </div>
+          <div class="line">
+            <div class="fifth-line">
+              <div class="fifth-line-left">
+                <p class="inline-p">送達時間</p>
+              </div>
+              <div class="fifth-line-right">
+                <div class="fifth-line-radio">
+                  <input
+                    type="radio"
+                    style="zoom: 200%"
+                    name="time"
+                    id="not-specify"
+                  />
+                  <label for="not-specify">不指定</label>
+                </div>
+                <div class="fifth-line-radio">
+                  <input
+                    type="radio"
+                    style="zoom: 200%"
+                    name="time"
+                    id="morn"
+                  />
+                  <label for="morn">10-13時</label>
+                </div>
+                <div class="fifth-line-radio">
+                  <input
+                    type="radio"
+                    style="zoom: 200%"
+                    name="time"
+                    id="noon"
+                  />
+                  <label for="morn">13-18時</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line">
+            <div class="fifth-line">
+              <div class="fifth-line-left">
+                <p class="inline-p">發票類型</p>
+              </div>
+              <div class="fifth-line-right">
+                <div class="fifth-line-radio">
+                  <input
+                    type="radio"
+                    style="zoom: 200%"
+                    name="receipt"
+                    id="donate"
+                  />
+                  <label for="donate">捐贈</label>
+                </div>
+                <div class="fifth-line-radio">
+                  <input
+                    type="radio"
+                    style="zoom: 200%"
+                    name="receipt"
+                    id="bi"
+                  />
+                  <label for="bi">二聯式發票</label>
+                </div>
+                <div class="radio-not-block">
+                  <input
+                    type="radio"
+                    style="zoom: 200%"
+                    name="receipt"
+                    id="tri"
+                  />
+                  <label for="tri">三聯式發票</label>
+                  <div class="tax-id">
+                    <input type="text" placeholder="-請輸入統一編碼-" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line">
+            <div class="last-line">
+              <p class="inline-p">電子發票載具</p>
+              <input
+                type="text"
+                placeholder="-請輸入帳戶號碼(/+7個英數字元)--"
+              />
+              <input type="text" placeholder="-請重新輸入以驗證-" />
+            </div>
+          </div>
+        </form>
+        <!--下一步-->
+        <div class="button">
+          <button
+            type="submit"
+            class="button-lastpage"
+            onclick="history.back('cart.html')"
+          >
+            上一步
+          </button>
+          <button type="submit" class="button-lastpage">下一步</button>
+          <p class="notice">請詳細填寫您的訂購資料喔，填寫完畢請按下一步。</p>
+        </div>
+        <!--底部說明-->
+        <div class="bottom-contents">
+          <p>
+            訂單經系統確認無誤後無法自行更改訂單，若有訂單之變更或取消，
+            請務必於到貨日3天前親自來電。若您對於訂單有任何問題，歡迎至客服中心留言，謝謝。
+          </p>
+          <p>
+            如您有任何訂單相關特殊需求需要我們注意，也歡迎使用我們客服中心留下您的問題，我們將會針對您的問題為您服務。
+          </p>
+        </div>
+      </div>
     </div>
+    <!--footer-->
     <div class="footer">
       <div class="logo">
         <img src="./img/icon.png" />
