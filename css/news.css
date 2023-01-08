@@ -419,4 +419,50 @@ a {
     border-radius: 10px;
     color: #ffffff;
   }
+
+  .news-block .block-title {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 180%;
+  }
+
+  .bt {
+    color: #323232;
+    font-size: 22px;
+    padding-top: 15px;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+
+  .block-title {
+    padding-top: 15px;
+    padding-bottom: 0px;
+  }
+
+  .zh {
+    font-size: 24px;
+    letter-spacing: 8px;
+    font-family: "GenJyuuGothicX-Medium";
+    text-align: center;
+    margin: 0px;
+  }
+
+  .en {
+    font-size: 24px;
+    letter-spacing: 4px;
+    font-family: "GenJyuuGothicX-Medium";
+    text-align: center;
+    margin: 0px;
+  }
+
+  .news-block {
+    width: 80%;
+    padding: 35px 1%;
+    background-color: #f0f0f0;
+    margin-top: -3px;
+    margin-right: 2%;
+    margin-left: 2%;
+    min-height: 716px;
+  }
 }
