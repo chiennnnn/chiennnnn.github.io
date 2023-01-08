@@ -26,7 +26,7 @@ body{
     background-image: url(../img/Vector\ 2.png), url(../img/Vector\ 4.png);
     background-size: 50%, 86%;
     background-repeat: no-repeat, no-repeat;
-    height: 3508px;
+    height: 3152px;
     background-position: 0 0, 100% 99%;
 }
 .title{
@@ -120,7 +120,7 @@ a {
     margin-left: 53%;
     margin-top: 100px;
     position: absolute;
-    top:391px;
+    top:214px;
     left:17%
 }
 
