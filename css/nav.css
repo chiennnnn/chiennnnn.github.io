@@ -111,6 +111,11 @@ body {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+
+.navbar-toggler:hover {
+  text-decoration: none;
+  border: none;
+}
 @media (max-width: 991px) {
   @font-face {
     font-family: "GenJyuuGithicX_Medium";
@@ -257,29 +262,14 @@ body {
 }
 
 @media (max-width: 767px) {
-  .carousel {
-    padding-top: 50px;
-  }
-
-  .topcontainer .ctbutton {
-    color: #ffffff;
-    letter-spacing: 2px;
-    font-size: 18px;
-    border-radius: 10px;
-    background-color: #323232;
-    width: 30%;
-    text-align: center;
-    display: inline-block;
-    height: auto;
-    line-height: 2.5;
-    vertical-align: middle;
-    border: none;
-  }
-
   .navbar-nav {
     margin-left: 80%;
     background-color: #541052;
     width: 18%;
+  }
+
+  .nav-link {
+    font-size: 20px;
   }
 
   .nav-item img {
@@ -300,25 +290,6 @@ body {
 }
 
 @media (max-width: 576px) {
-  .carousel {
-    padding-top: 50px;
-  }
-
-  .topcontainer .ctbutton {
-    color: #ffffff;
-    letter-spacing: 2px;
-    font-size: 18px;
-    border-radius: 10px;
-    background-color: #323232;
-    width: 30%;
-    text-align: center;
-    display: inline-block;
-    height: auto;
-    line-height: 2.5;
-    vertical-align: middle;
-    border: none;
-  }
-
   .navbar-nav {
     margin-left: 73%;
     background-color: #541052;
@@ -342,25 +313,6 @@ body {
 }
 
 @media (max-width: 485px) {
-  .carousel {
-    padding-top: 50px;
-  }
-
-  .topcontainer .ctbutton {
-    color: #ffffff;
-    letter-spacing: 2px;
-    font-size: 18px;
-    border-radius: 10px;
-    background-color: #323232;
-    width: 30%;
-    text-align: center;
-    display: inline-block;
-    height: auto;
-    line-height: 2.5;
-    vertical-align: middle;
-    border: none;
-  }
-
   .navbar-nav {
     margin-left: 66%;
     background-color: #541052;
@@ -384,25 +336,6 @@ body {
 }
 
 @media (max-width: 376px) {
-  .carousel {
-    padding-top: 50px;
-  }
-
-  .topcontainer .ctbutton {
-    color: #ffffff;
-    letter-spacing: 2px;
-    font-size: 18px;
-    border-radius: 10px;
-    background-color: #323232;
-    width: 30%;
-    text-align: center;
-    display: inline-block;
-    height: auto;
-    line-height: 2.5;
-    vertical-align: middle;
-    border: none;
-  }
-
   .navbar-nav {
     margin-left: 56%;
     background-color: #541052;
