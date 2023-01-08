@@ -429,7 +429,7 @@ h2{
     background-repeat: no-repeat,
                        no-repeat;
 
-    height: 4095px;
+    height: 3970px;
 
     background-position: 0 0,
                          100% 99%;
@@ -463,6 +463,9 @@ h2{
  .coid{
         margin-bottom: 115px;
     }
+    .carousel {
+    padding-top: 100px;
+  }
     }
 
     
