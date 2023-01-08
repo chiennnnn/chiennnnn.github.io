@@ -1,0 +1,96 @@
+/*nav*/
+.nav {
+  background-color: #541052;
+  color: #ffffff;
+}
+.nav a {
+  background-color: #541052;
+  color: #ffffff;
+  text-decoration: none;
+}
+.left-logo {
+  display: inline-block;
+  width: 20vw;
+  height: auto;
+  padding: 20px 80px;
+}
+.right-contents {
+  display: inline-block;
+  width: 55vw;
+  height: auto;
+  padding: 20px 80px;
+  text-align: center;
+}
+.right-contents a {
+  width: 7%;
+}
+
+/*title*/
+.title {
+  padding: 200px 0 0 0;
+  text-align: center;
+}
+h1 {
+  font-weight: bolder;
+}
+/*QA*/
+.QA {
+  margin: 200px 300px 200px 300px;
+}
+.QA .accordion-button {
+  color: #ffffff;
+  background-color: #541052;
+}
+.accordion-button:not(.collapsed)::after {
+  display: none;
+}
+.accordion-button::after {
+  display: none;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+.QA .accordion-body {
+  color: #000;
+  background-color: #f0f0f0;
+  font-size: 16px;
+  line-height: 28.8px;
+}
+.QA .accordion-body .purple-text {
+  color: #541052;
+  font-size: 16px;
+  line-height: 28.8px;
+  font-weight: bolder;
+}
+.QA .accordion-item {
+  margin: 10px;
+}
+.contact {
+  color: #dcdcdc;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.contact p {
+  color: #dcdcdc;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bolder;
+  margin: 30px;
+}
+.contact a {
+  display: inline-block;
+  width: 204px;
+  height: 60px;
+  margin: 30px;
+  padding: 18px 67px;
+  color: #541052;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 14px;
+}

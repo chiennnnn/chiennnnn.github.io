@@ -1,0 +1,160 @@
+.body h1 {
+  color: #000000;
+  font-size: 36px;
+}
+/*nav*/
+.nav {
+  background-color: #541052;
+  color: #ffffff;
+}
+.nav a {
+  background-color: #541052;
+  color: #ffffff;
+  text-decoration: none;
+}
+.left-logo {
+  display: inline-block;
+  width: 20vw;
+  height: auto;
+  padding: 20px 80px;
+}
+.right-contents {
+  display: inline-block;
+  width: 55vw;
+  height: auto;
+  padding: 20px 80px;
+  text-align: center;
+}
+.right-contents a {
+  width: 7%;
+}
+
+/*title*/
+.title {
+  padding: 200px 0 150px 0;
+  text-align: center;
+  font-weight: bolder;
+}
+h1 {
+  font-weight: bolder;
+}
+/*map*/
+.imformation {
+  font-size: 16px;
+  color: #323232;
+  background-color: #f0f0f0;
+  margin: 150px 300px 150px 300px;
+  padding: 100px 50px 50px 50px;
+  position: relative;
+}
+.name {
+  display: inline-block;
+  background-color: #541052;
+  color: #ffffff;
+  padding: 25px 158px 13px 158px;
+  font-size: 32px;
+  text-align: center;
+  position: absolute;
+  top: -60px;
+  left: -100px;
+}
+
+.google-map {
+  width: 100%;
+  padding: 40px 0 0 0;
+}
+iframe {
+  width: 100%;
+}
+
+/*footer*/
+.footer {
+  color: #ffffff;
+  background-color: #541052;
+  font-size: 16px;
+  line-height: 150%;
+}
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+.logo {
+  width: 25%;
+  padding: 164px 10% 164px 10%;
+}
+.right-imformation {
+  margin: 0 0 0 32%;
+  width: 37%;
+}
+.logo,
+.right-imformation {
+  display: inline-block;
+  vertical-align: middle;
+}
+.category {
+  padding: 30px 0;
+  font-size: 22px;
+}
+.shopping,
+.service {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+.branch {
+  display: inline-block;
+  vertical-align: top;
+  width: 38%;
+}
+
+/*copyright*/
+.copyright {
+  color: #323232;
+  background-color: #dcdcdc;
+  text-align: center;
+  padding: 9px 0;
+}
+.copyright a {
+  text-decoration: none;
+  color: #323232;
+  text-align: center;
+}
+
+/*上課
+虛元素:before、after，要設定content及display*/
+.test {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.test::before {
+  content: "";
+  width: 40px;
+  height: 4px;
+  background-color: rgba(84, 16, 82, 1);
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: calc(50% - 20px);
+  z-index: 10;
+}
+.test::after {
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: #dcdcdc;
+  display: block;
+  position: absolute;
+  top: 61px;
+  left: calc(50% - 50px);
+  z-index: 9;
+}
+.yesno {
+  border: solid 1px #541052;
+  border-collapse: collapse;
+}
+.yesno th,
+td {
+  border: solid 1px #541052;
+}

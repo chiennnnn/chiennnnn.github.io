@@ -1,0 +1,12 @@
+/*--第三區 企業理念*/
+.corporate-identity h4{
+    flex: 1 1 30px;
+    font-size: 14px;
+	color: #323232;
+	font-weight: 500;
+	position: relative;
+    margin-left: 1200px;
+    margin-top: -235px;
+    line-height: 2;
+
+}

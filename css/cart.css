@@ -1,0 +1,292 @@
+/*字體*/
+@font-face {
+  font-family: "GenJyuuGithicX_Medium";
+  src: url(../font_ttf/GenJyuuGothicX-Medium.ttf);
+  src: url(../font_ttf/GenJyuuGothicX-Medium.ttf) format("truetype"),
+    url(../font/eot/GenJyuuGothicX-Medium.eot) format("embedded-opentype");
+}
+
+/*第二區 購物流程*/
+
+.main-patterens {
+  width: 80%;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.patterens {
+  padding: 80px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+.circles1 {
+  width: 54px;
+  height: 54px;
+  font-size: 24px;
+  line-height: 54px;
+  background-color: #541052;
+  border-radius: 50%;
+  color: #ffffff;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+}
+.patterens .circles1 p {
+  font-size: 24px;
+  color: #541052;
+}
+
+.circles {
+  width: 54px;
+  height: 54px;
+  font-size: 24px;
+  line-height: 54px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  color: #ffffff;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+}
+
+.main-patterens .patterens p {
+  font-size: 24px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.triangles {
+  width: 0;
+  height: 0;
+  display: block;
+  border-top: 18px solid transparent;
+  border-left: 22px solid #d9d9d9;
+  border-bottom: 18px solid transparent;
+  margin-top: 130px;
+}
+
+/*第三區 付款方式*/
+
+.main-title,
+.title {
+  font-size: 24px;
+  width: 70%;
+  background-color: #dcdcdc;
+  text-align: center;
+  color: #323232;
+  padding: 1% 0;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.main-content {
+  display: flex;
+  width: 57%;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 45px;
+}
+.icons {
+  width: 33%;
+  text-align: center;
+}
+
+.button {
+  background-color: #323232;
+  width: 65%;
+  height: 60px;
+  border-radius: 14px;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+.button:hover {
+  background-color: #ffffff;
+  border: #541052 solid 3px;
+  font-size: 24px;
+  color: #541052;
+  text-align: center;
+}
+.button:active {
+  background-color: #541052;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.note {
+  padding-bottom: 80px;
+}
+
+.note p {
+  background-color: #541052;
+  width: 46%;
+  border-radius: 14px;
+  font-size: 16px;
+  line-height: 180%;
+  color: #ffffff;
+  text-align: left;
+  padding: 2% 2%;
+  margin: 0 auto;
+  padding-bottom: 45px;
+}
+
+/*第四區 選購商品*/
+
+.date p {
+  color: #541052;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 2% 15%;
+}
+
+.content p {
+  font-size: 24px;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.content-bar-l1 {
+  background-color: #541052;
+  height: 70px;
+  color: #ffffff;
+  padding: 15px 2%;
+  width: 70%;
+  margin: 0 auto;
+}
+.content-bar-l1 p {
+  font-size: 24px;
+}
+
+.all-selected {
+  float: left;
+}
+
+.select-bar {
+  display: flex;
+  width: 89%;
+  float: right;
+  text-align: right;
+}
+
+.select-bar p {
+  display: inline-block;
+  vertical-align: middle;
+  width: 23.5%;
+}
+
+#select-one {
+  width: 44px;
+  height: 44px;
+}
+.pineapple_cake_title {
+  color: #541052;
+}
+
+.content-item-l2 p,
+img {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.content-item-l2 {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.content-item-l2 select {
+  color: #dcdcdc;
+  width: 200%;
+  height: 49px;
+  position: relative;
+  border-radius: 14px;
+  border: #541052 solid 3px;
+}
+
+/*第五區 總額*/
+
+.main-total {
+  width: 70%;
+  background-color: #dcdcdc;
+  padding: 20px 2% 20px 45%;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+.note-top {
+  margin-bottom: 25px;
+  border-bottom: 3px solid #323232;
+}
+
+.left-text,
+.right-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.bottom-left,
+.bottom-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.left-text {
+  padding-right: 12%;
+}
+
+.bottom-left {
+  padding-right: 18.2%;
+}
+
+/*第六區 下一步上一步按鈕*/
+.button-container {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.button-container .button {
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: #323232;
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+  height: 50px;
+  line-height: 2.5;
+  vertical-align: middle;
+  border: none;
+  margin: 30px;
+}
+
+.button-container .button:hover {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #541052;
+  color: #541052;
+  height: 50px;
+}
+
+.buttom-container .button:active {
+  background-color: #541052;
+  border-radius: 10px;
+  color: #ffffff;
+  height: 50px;
+}
+
+.note-bottom {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  color: #323232;
+  margin-bottom: 100px;
+}

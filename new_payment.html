@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>奕順軒</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
+    <link href="./css/reset.css" rel="stylesheet" />
+    <!-- CSS only -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/new.css" rel="stylesheet" />
+    <link href="./css/new_payment.css" rel="stylesheet" />
+    <link href="./css/nav.css" rel="stylesheet" />
+    <link href="./css/footer.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--第一區 header-->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./img/icon.png"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown"
+                  href="./order2.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  購物中心
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./quick.html">快速訂購</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./order2.html">一般訂購</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./news.html">最新消息</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./QA.html">客服中心</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./map.html">門市據點</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./new_payment.html">
+                  <img src="./img/shopping bag_icon.png" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--第二區 購物流程-->
+    <div class="main-patterens">
+      <div class="patterens">
+        <div class="circles1">1</div>
+        <p>選擇付款方式</p>
+      </div>
+      <div class="triangles"></div>
+
+      <div class="patterens">
+        <div class="circles">2</div>
+        <p>填寫寄送方式</p>
+      </div>
+      <div class="triangles"></div>
+
+      <div class="patterens">
+        <div class="circles">3</div>
+        <p>最後確認</p>
+      </div>
+      <div class="triangles"></div>
+
+      <div class="patterens">
+        <div class="circles">4</div>
+        <p>完成訂購</p>
+      </div>
+    </div>
+
+    <!--第三區 選購商品-->
+    <div class="title">選購商品</div>
+    <div class="date"><p>到貨日:2022-11-02</p></div>
+
+    <div class="content">
+      <div class="content-bar-l1">
+        <div class="all-selected">
+          <input type="checkbox" name="all-selected" id="checkbox-all" />
+          <label>
+            <input type="checkbox" value="confirm" />
+            <span class="alls">全選</span>
+          </label>
+        </div>
+        <div class="select-bar">
+          <p>商品</p>
+          <p>特價</p>
+          <p>數量</p>
+          <p>金額</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-item-l1">
+      <label class="pur">
+        <input type="checkbox" value="confirm" />
+        <span class="alls">1</span>
+      </label>
+      <img src="./img/img_pay/image 2.png" />
+      <p class="pineapple_cake_title">鳳梨酥<br />(8入)</p>
+      <p class="price">480</p>
+      <p class="quantity">
+        <select>
+          <option class="placeholder">-數量-</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+        </select>
+      </p>
+      <p class="total-r">0</p>
+    </div>
+
+    <div class="content-item-l1">
+      <label class="pur">
+        <input type="checkbox" value="confirm" />
+        <span class="alls">1</span>
+      </label>
+      <img src="./img/img_pay/image 9.png" />
+      <p class="pineapple_cake_title">YQ餅<br />(12入)</p>
+      <p class="price">200</p>
+      <p class="quantity">
+        <select>
+          <option>-數量-</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+        </select>
+      </p>
+      <p class="total-r">0</p>
+    </div>
+
+    <!--第四區 總額-->
+
+    <div class="main-total">
+      <div class="note-top">
+        <div class="left-text">
+          <p>商品總額:</p>
+          <p>運費:</p>
+          <p>手續費:</p>
+        </div>
+
+        <div class="right-text">
+          <p>960</p>
+          <p>200</p>
+          <p>30</p>
+        </div>
+      </div>
+
+      <div class="note-bottom">
+        <div class="bottom-left">
+          <p>總金額</p>
+          <p>再買</p>
+        </div>
+        <div class="bottom-right">
+          <p>1190</p>
+          <p>2320 元免運費，外島運費另計</p>
+        </div>
+      </div>
+    </div>
+
+    <!--第五區 付款方式-->
+
+    <div class="title">付款方式</div>
+
+    <div class="main-content">
+      <div class="icons">
+        <img src="./img/img_pay/9025861_package_box_icon (1) 1.png" />
+        <div>
+          <input type="button" value="貨到付款" class="button" />
+        </div>
+      </div>
+
+      <div class="icons">
+        <img src="./img/img_pay/轉帳_ICON-01 2.png" />
+        <div>
+          <input type="button" value="轉帳" class="button" />
+        </div>
+      </div>
+
+      <div class="icons">
+        <img src="./img/img_pay/銀行_ICON-01 1.png" />
+        <div>
+          <input type="button" value="銀行付款" class="button" />
+        </div>
+      </div>
+    </div>
+
+    <div class="note">
+      <p>
+        手續費：<br />到貨付款：每筆需代收30元手續費給宅配公司<br /><br />轉帳:為方便網路銀行核對您的款項，轉帳電話請等於訂購單的電話，待款項確認後，會以簡訊通知您，謝謝！<br /><br />銀行付款:每筆需代收30元手續費給宅配公司
+      </p>
+    </div>
+
+    <!--第六區 下一步上一步按鈕-->
+
+    <div class="button-container">
+      <input
+        type="button"
+        onclick="location.href='order2.html'"
+        value=" 繼續購物"
+        class="button"
+      />
+      <input
+        type="button"
+        onclick="location.href='data.html'"
+        value=" 下一步"
+        class="button"
+      />
+    </div>
+    <div class="note-buttom">
+      <p>請您確認購物車內的商品是否無誤，再按下 「 到下一步 」 按鈕</p>
+    </div>
+
+    <div class="footer">
+      <div class="logo">
+        <img src="./img/icon.png" />
+      </div>
+      <div class="right-imformation">
+        <div class="shopping">
+          <div class="category">購物中心</div>
+          <div class="text">
+            <a href="./quick.html">快速訂購</a><br /><br />
+            <a href="./order2.html">一般訂購</a><br /><br />
+            <a href="#">送禮專區</a><br /><br />
+            <a href="#">下載訂購單</a><br />
+          </div>
+        </div>
+        <div class="service">
+          <div class="category">客服中心</div>
+          <div class="text">
+            <a href="./QA.html">常見問題</a><br /><br />
+            <a href="#">意見回覆</a>
+          </div>
+        </div>
+        <div class="branch">
+          <div class="category">門市資訊</div>
+          <div class="text">
+            <a href="./map.html">
+              礁 溪 店03-9876336<br />
+              宜蘭縣礁溪鄉礁溪路5段96號 </a
+            ><br />
+            <br />
+            <a href="#">
+              羅 東 店 03-9550216<br />
+              宜蘭縣羅東鎮民權路160號<br />
+            </a>
+            <br />
+            <a href="#">
+              宜 蘭 店 03-9334536<br />
+              宜蘭縣宜蘭市神農路2段17號
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- copyright -->
+    <div class="copyright">
+      Copyright © All right reserved / Designed by : FADNOR Interactive Media /
+      <a href="#">購物須知與細則</a> / <a href="#">產品營養標示 </a>/
+      <a href="#">產品責任險</a>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

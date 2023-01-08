@@ -1,0 +1,338 @@
+/*GenJyuuGithicX_Medium*/
+@font-face {
+  font-family: "GenJyuuGithicX_Medium";
+  src: url(../font/ttf/GenJyuuGothicX-Medium.ttf);
+  src: url(../font/ttf/GenJyuuGothicX-Medium.ttf) format("truetype"),
+    url(../font/eot/GenJyuuGothicX-Medium.eot) format("embedded-opentype");
+}
+@font-face {
+  font-family: "GenJyuuGithicX_Regular";
+  src: url(../font/ttf/GenJyuuGothicX-Regular.ttf);
+  src: url(../font/ttf/GenJyuuGothicX-Regular.ttf) format("truetype"),
+    url(../font/eot/GenJyuuGothicX-Regular.eot) format("embedded-opentype");
+}
+@font-face {
+  font-family: "GenJyuuGithicX_Bold";
+  src: url(../font/ttf/GenJyuuGothicX-Bold.ttf);
+  src: url(../font/ttf/GenJyuuGothicX-Bold.ttf) format("truetype"),
+    url(../font/eot/GenJyuuGothicX) format("embedded-opentype");
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "GenJyuuGithicX_Medium";
+}
+
+/*banner*/
+.banner {
+  display: inline-block;
+}
+.backgroundImg {
+  z-index: 1;
+  width: 100%;
+}
+.titleText {
+  font-family: "GenJyuuGithicX_Medium";
+  font-size: 24px;
+}
+/*backgroundImg::before {
+  z-index: 2;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 340px;
+  left: calc(50% ＋ 20px);
+}*/
+
+/*banner title*/
+.bannercontainer {
+  background-image: url(../img/img_fast/Subtract.png),
+    url(../img/img_fast/Mask\ group.png);
+  background-size: 25%, contain;
+  height: 23vw;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 14% 10.1vw, 0% 0vw;
+  margin-top: 100px;
+}
+
+.top-text {
+  text-align: center;
+  padding-top: 15vw;
+  padding-right: 53%;
+}
+
+.bannercontainer .top-text .zh {
+  font-size: 36px;
+  letter-spacing: 8px;
+  padding-bottom: 3px;
+  font-family: "GenJyuuGothicX-Medium";
+}
+
+.bannercontainer .top-text .en {
+  font-size: 32px;
+  letter-spacing: 6px;
+  font-family: "Basic", sans-serif;
+}
+
+/*shopwrapper*/
+.productsKind {
+  vertical-align: middle;
+  display: inline-block;
+}
+.shopwrapper {
+  font-family: "GenJyuuGithicX_Medium";
+  display: inline-block;
+  width: 98%;
+  padding: 5% 15% 10% 16%;
+  vertical-align: middle;
+}
+.shopwrapper p {
+  font-size: 24px;
+  color: #323232;
+}
+.shopwrapperRight {
+  display: flex;
+  float: right;
+  width: 50%;
+}
+.dropdown,
+.navbar-order {
+  display: inline-block;
+}
+.navbar-order {
+  position: relative;
+}
+
+/*dropdown*/
+.dropdown {
+  width: 40%;
+  padding-right: 5%;
+}
+/*設padding 放background*/
+.btn {
+  --bs-btn-border-width: 3px;
+  font-size: 16px;
+  font-family: "GenJyuuGithicX_Regular";
+  padding: 15px;
+  padding-left: 10%;
+  width: 100%;
+  text-align: left;
+}
+.btn-secondary {
+  --bs-btn-color: #8b8b8b;
+  --bs-btn-bg: #ffffff;
+  --bs-btn-border-color: #8b8b8b;
+  --bs-btn-hover-color: #541052;
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-border-color: #541052;
+  --bs-btn-focus-shadow-rgb: 130, 138, 145;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #541052;
+  --bs-btn-active-border-color: #541052;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #8b8b8b;
+  --bs-btn-disabled-border-color: #8b8b8b;
+  --border-radius: 5px;
+}
+.dropdown-menu {
+  font-family: "GenJyuuGithicX_Regular";
+  width: 87%;
+  padding-left: 5%;
+  --bs-dropdown-zindex: 1000;
+  --bs-dropdown-min-width: 10rem;
+  --bs-dropdown-padding-x: 0px;
+  --bs-dropdown-padding-y: 0px;
+  --bs-dropdown-spacer: 0.125rem;
+  --bs-dropdown-font-size: 16px;
+  --bs-dropdown-color: #000000;
+  --bs-dropdown-bg: #fff;
+  --bs-dropdown-border-color: var(--bs-border-color-translucent);
+  --bs-dropdown-border-radius: 0.375rem;
+  --bs-dropdown-border-width: 1px;
+  --bs-dropdown-inner-border-radius: calc(0.375rem - 1px);
+  --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
+  --bs-dropdown-divider-margin-y: 0.5rem;
+  --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  --bs-dropdown-link-color: #212529;
+  --bs-dropdown-link-hover-color: #1e2125;
+  --bs-dropdown-link-hover-bg: #e9ecef;
+  --bs-dropdown-link-active-color: #fff;
+  --bs-dropdown-link-active-bg: #0d6efd;
+  --bs-dropdown-link-disabled-color: #adb5bd;
+  --bs-dropdown-item-padding-x: 0px;
+  --bs-dropdown-item-padding-y: 0px;
+  --bs-dropdown-header-color: #6c757d;
+  --bs-dropdown-header-padding-x: 1rem;
+  --bs-dropdown-header-padding-y: 0.5rem;
+  position: absolute;
+  z-index: var(--bs-dropdown-zindex);
+  display: none;
+  min-width: var(--bs-dropdown-min-width);
+  margin: 0px;
+  font-size: var(--bs-dropdown-font-size);
+  color: var(--bs-dropdown-color);
+  text-align: left;
+  line-height: 55px;
+  list-style: none;
+  background-color: var(--bs-dropdown-bg);
+  background-clip: padding-box;
+  border: var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color);
+  border-radius: var(--bs-dropdown-border-radius);
+}
+/*navbar*/
+.navbar-order-toggler {
+  padding: 0px;
+  background-color: none;
+  border: none;
+}
+
+/*firstLine*/
+.firstLine {
+  position: absolute;
+  top: 700px;
+  left: 15%;
+  right: 15%;
+  width: 70%;
+  text-align: center;
+  font-family: "GenJyuuGithicX_Medium";
+  font-size: 24px;
+  display: flex;
+}
+.product1,
+.product2 {
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.product3 {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+.product1 {
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+.product1:hover figcaption .mask {
+  bottom: 0;
+}
+
+.productsName p {
+  color: #000000;
+}
+.productsPrice p {
+  color: #541052;
+}
+.productsNotice {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+figcaption .mask {
+  display: block;
+  background-color: #541052;
+  bottom: -50%;
+  color: #000000;
+  padding: 10%;
+  position: absolute;
+  width: 100%;
+  text-align: left;
+  transition: all 0.4s ease 0s;
+}
+/*overlay*/
+/*.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f0f0f0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  font-size: 16px;
+}*/
+/*.overlayProductsName p {
+  color: #000000;
+  font-family: "GenJyuuGithicX_Medium";
+  font-size: 24px;
+}
+.overlayProductsPrice p {
+  color: #541052;
+  font-family: "GenJyuuGithicX_Medium";
+  font-size: 24px;
+}
+
+.overlayProductsNotice {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.overlayProductDetail {
+  line-height: 25px;
+  margin-bottom: 20px;
+}*/
+
+/*banner subtract
+.background .img:before {
+  content: "";
+  display: block;
+  width: 380px;
+  height: 150px;
+  top: 340px;
+  background-color: rgba(191, 191, 191);
+  margin-left: 190px;
+}*/
+
+/*.bg-light {
+  background-color: blueviolet;
+}
+
+.p {
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  width: 216px;
+  top: 60px;
+  left: calc(50% - 108px);
+}*/
+/*虛元素：裝飾線*/
+/*p::before {
+  content: "";
+  width: 40px;
+  height: 3px;
+  background-color: brown;
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: calc(50% - 20px);
+}
+p::after {
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: #bfbfbf;
+  display: block;
+  position: absolute;
+  top: 62px;
+  left: calc(50% - 20px);
+}*/
+/*.img {
+}*/
+
+/*手機版*/
+@media (max-width: 1420px) {
+  /*.navigation{
+        padding: 20px;
+        text-align: justify;
+    }
+    .navigation:after{
+        content: '';
+        display: inline-block;
+        width: 100%;
+    }*/
+  .menu-wrapper,
+  .logo {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>奕順軒</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
+    <link href="./css/reset.css" rel="stylesheet" />
+    <!-- CSS only -->
+    <link
+      href="./css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="./css/new.css" rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
+    <link href="./css/nav.css" rel="stylesheet" />
+    <link href="./css/footer.css" rel="stylesheet" />
+  </head>
+  <body>
+   <!--第一區 header-->
+<header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="./img/icon.png"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown"
+                href="./order2.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                購物中心
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./quick.html">快速訂購</a>
+                </li>
+                <li><a class="dropdown-item" href="./order2.html">一般訂購</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./news.html">最新消息</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./QA.html">客服中心</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./map.html">門市據點</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./new_payment.html">
+                <img src="./img/shopping bag_icon.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/banner1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/banner2.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/banner1.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button> 
+  </div>
+
+  <div>
+    <div class="pic">
+      <div class="title">
+        <p class="zh">最新消息</p>
+        <p class="en">Hot News</p>
+      </div>
+      <div class="hotnewscontainer">
+        <div class=" hotnews" id="news-block" onclick="openPage('news.html')">
+          <div class="newsimg">
+              <img src="./img/news1.png" class="pie">
+            <div class="pietext">
+              <a href="./news.html">
+                <p class="titles">切達乳酪狀元餅特惠</p1>
+              </a>
+                <p class="date">2022.10.21</p>
+                <p class="contents">傳統經典的美味，享受幸福美好滋味，盡在奕順軒切達乳酪狀元餅。<br>
+                    即日起至11月10日，凡購買切達乳酪狀元餅禮盒，即享85折優惠。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+          
+      <div class="hotnews">
+        <div class="newsimg">
+          <img src="./img/news2.png" class="pie">
+          <div class="pietext">
+            <a href="./news.html">
+              <p class="titles">拿破崙派新上市</p1></a>
+              <p class="date">2022.4.15</p>
+              <p class="contents">綿密蛋糕捲包覆香酥層層派皮,派.拿破崙&派.巧克拿破崙,華麗新上市~!<br>
+                            即日起至9月15日，凡購買拿破崙派組合，即享新品85折優惠。</p>
+          </div>
+        </div>
+       </div>
+     
+
+      <div class="hotnews">
+        <div class="newsimg">
+              <img src="./img/news3.png" class="pie">
+            <div class="pietext">
+              <a href="./news.html">
+               <p class="titles">春節特惠活動</p1>
+              </a>
+              <p class="date">2021.12.25</p>
+              <p class="contents">2021/12/25-2022/2/6期間，凡購買春節禮盒乙盒，即可以優惠價<br>$400(原價＄500)購買奶凍卷隨行外帶盒乙盒。
+                  另於春節活動期間，凡購買滿額2000元，即現折200元之優惠！
+            </div>
+        </div>
+      </div>
+   
+
+    
+      <div class="coid">
+        <div class="title">
+          <p class="zh">企業理念</p>
+          <p class="en">Corporate Identity</p>
+        </div>
+        <div class="coidimg">
+          <p>奕順軒堅持用心經營，持續創新。奕順軒做最有活力的創新，領先開發出"宜蘭等路等系列"。玉露狀元餅、手工麻糬、奕順軒宜蘭餅、鮮奶牛軋糖、鳳梨酥等。「好餅盡在奕順軒」，我們也相信好吃、實在、服務好是我們最佳代言人。</p></div>
+        
+        </div>
+    
+    
+    
+        <div class="title">
+        <p class="zh">在地食材</p>
+        <p class="en">Locavore</p>
+        </div>
+
+        <div class="lav">
+            <div class="lavcontainer">
+                <ul class="lavul">
+                    <li class="lavli">
+                        <img src="./img/lavcore1.png">
+                        <h2>桂圓</h2>
+                        <p>
+                        我們有的住山上，有的住平地，要問我們是哪一族？！我們大聲的說：是龍眼族的啦！<br>
+                        三月時我們花枝招展，招蜂引蝶，七八月時我們生了好多桂圓寶寶，為了培育好的寶寶。
+                        </p>
+                    </li>
+                    <li class="lavli">                
+                        <img src="./img/lavcore2.png">
+                        <h2>金棗</h2>
+                        <p> 金棗當年也是唐山過台灣，由中國大陸跨過黑水溝來到宜蘭，金棗喜歡雨量充沛的地區，蘭陽的多雨成了金棗的溫暖鄉，數量冠全台。                
+                        </p>
+                    </li>
+                    <li class="lavli">               
+                        <img src="./img/lavcore3.png">
+                        <h2>花生</h2>
+                        <p>
+                        嚴選宜蘭沙地花生，因特殊地理環境，海邊水氣和鹽分帶來特殊風味，個頭小但是脆度跟甜度都是首選！！<br>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </div>
+
+   
+    
+  <div class="footer">
+      <div class="logo">
+        <img src="./img/icon.png" />
+      </div>
+      <div class="right-imformation">
+        <div class="shopping">
+          <div class="category">購物中心</div>
+          <div class="text">
+            <a href="./quick.html">快速訂購</a><br /><br />
+            <a href="./order2.html">一般訂購</a><br /><br />
+            <a href="#">送禮專區</a><br /><br />
+            <a href="#">下載訂購單</a><br />
+          </div>
+        </div>
+        <div class="service">
+          <div class="category">客服中心</div>
+          <div class="text">
+            <a href="./QA.html">常見問題</a><br /><br />
+            <a href="#">意見回覆</a>
+          </div>
+        </div>
+        <div class="branch">
+          <div class="category">門市資訊</div>
+          <div class="text">
+            <a href="./map.html">
+              礁 溪 店03-9876336<br />
+              宜蘭縣礁溪鄉礁溪路5段96號 </a
+            ><br />
+            <br />
+            <a href="#">
+              羅 東 店 03-9550216<br />
+              宜蘭縣羅東鎮民權路160號<br />
+            </a>
+            <br />
+            <a href="#">
+              宜 蘭 店 03-9334536<br />
+              宜蘭縣宜蘭市神農路2段17號
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- copyright -->
+    <div class="copyright">
+      Copyright © All right reserved / Designed by : FADNOR Interactive Media /
+      <a href="#">購物須知與細則</a> / <a href="#">產品營養標示 </a>/
+      <a href="#">產品責任險</a>
+    </div> 
+
+
+
+
+
+      <!-- JavaScript Bundle with Popper -->
+  <script
+      src="./js/bootstrap.bundle.min.js"
+    ></script>
+</body>
+</html>

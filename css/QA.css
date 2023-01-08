@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "GenJyuuGithicX_Medium";
+  src: url(../font/ttf/GenJyuuGothicX-Medium.ttf);
+  src: url(../font/ttf/GenJyuuGothicX-Medium.ttf) format("truetype"),
+    url(../font/eot/GenJyuuGothicX-Medium.eot) format("embedded-opentype");
+
+  src: url(../font/ttf/GenJyuuGothicX-Regular.ttf);
+  src: url(../font/ttf//GenJyuuGothicX-Regular.ttf) format("truetype"),
+    url(../font/eot/GenJyuuGothicX-Normal.eot) format("embedded-opentype");
+}
+
+body {
+  font-family: "GenJyuuGothicX-Regular";
+}
+/*title*/
+.title {
+  padding: 200px 0 0 0;
+  text-align: center;
+}
+.zh {
+  font-size: 36px;
+  letter-spacing: 8px;
+  font-family: "GenJyuuGothicX-Medium";
+}
+
+.en {
+  font-size: 32px;
+  letter-spacing: 3px;
+  font-family: "Basic", sans-serif;
+}
+
+/*QA*/
+.QA {
+  margin: 80px 300px 90px 300px;
+}
+.QA .accordion-button {
+  color: #ffffff;
+  background-color: #541052;
+}
+.accordion-button:not(.collapsed)::after {
+  display: none;
+}
+.accordion-button::after {
+  display: none;
+}
+::after,
+::before {
+  box-sizing: border-box;
+}
+.QA .accordion-body {
+  color: #000;
+  background-color: #f0f0f0;
+  font-size: 16px;
+  line-height: 28.8px;
+}
+.QA .accordion-body .purple-text {
+  color: #541052;
+  font-size: 16px;
+  line-height: 28.8px;
+  font-weight: bolder;
+}
+.QA .accordion-item {
+  margin: 10px;
+}
+.contact {
+  color: #dcdcdc;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-bottom: 100px;
+}
+.contact p {
+  color: #8b8b8b;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px;
+  font-family: "GenJyuuGothicX-Regular";
+}
+.contact a {
+  display: inline-block;
+  width: 204px;
+  height: 60px;
+  margin: 10px;
+  padding: 15px 67px 21px 67px;
+  color: #541052;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 14px;
+}
+
+.collapse {
+  padding: 0;
+}
+@media (max-width: 767px) {
+  /*title*/
+  .title {
+    padding: 200px 0 0 0;
+    text-align: center;
+  }
+  .zh {
+    font-size: 24px;
+    letter-spacing: 8px;
+    font-family: "GenJyuuGothicX-Medium";
+  }
+
+  .en {
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-family: "Basic", sans-serif;
+  }
+
+  /*QA*/
+  .QA {
+    margin: 80px 12% 80px 12%;
+  }
+  .QA .accordion-button {
+    color: #ffffff;
+    background-color: #541052;
+  }
+  .accordion-button:not(.collapsed)::after {
+    display: none;
+  }
+  .accordion-button::after {
+    display: none;
+  }
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+  .QA .accordion-body {
+    color: #000;
+    background-color: #f0f0f0;
+    font-size: 16px;
+    line-height: 28.8px;
+  }
+  .QA .accordion-body .purple-text {
+    color: #541052;
+    font-size: 16px;
+    line-height: 28.8px;
+    font-weight: bolder;
+  }
+  .QA .accordion-item {
+    margin: 10px;
+  }
+  .contact {
+    color: #dcdcdc;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 100px;
+  }
+  .contact p {
+    color: #8b8b8b;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+    font-family: "GenJyuuGothicX-Regular";
+  }
+  .contact a {
+    display: inline-block;
+    width: 204px;
+    height: 60px;
+    margin: 10px;
+    padding: 15px 67px 21px 67px;
+    color: #541052;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 14px;
+  }
+
+  .collapse {
+    padding: 0;
+  }
+}

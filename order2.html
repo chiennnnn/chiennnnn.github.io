@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>奕順軒</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
+    <link href="./css/reset.css" rel="stylesheet" />
+    <!-- CSS only -->
+    <link
+      href="./css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="./css/order2.css" rel="stylesheet" />
+    <link href="./css/new.css" rel="stylesheet" />
+    <link href="./css/nav.css" rel="stylesheet" />
+    <link href="./css/footer.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--第一區 header-->
+    <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="./img/icon.png"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown"
+                href="./order2.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                購物中心
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./quick.html">快速訂購</a>
+                </li>
+                <li><a class="dropdown-item" href="./order2.html">一般訂購</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./news.html">最新消息</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./QA.html">客服中心</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./map.html">門市據點</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./new_payment.html">
+                <img src="./img/shopping bag_icon.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+
+    <div class="bannercontainer">
+      <div class="top-text">
+        <p class="zh">一般訂購</p>
+        <p class="en">Products</p>
+      </div>
+    </div>
+
+    <!--productsKind-->
+    <div class="productsKind">
+      <p>奶凍卷／派・拿破崙</p>
+      <!--shopwrapperRight-->
+      <div class="shopwrapperRight">
+        <!--dropdown-->
+        <div class="dropdown-sec" id="order-dropdown">
+          <a
+            class="btn btn-secondary dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            商品排序方式
+          </a>
+          <ul class="dropdown-menu" id="order-dpmenu">
+            <li>
+              <a class="dropdown-item" id="order-dpitem" href="#"
+                >上架時間：由新到舊</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" id="order-dpitem" href="#"
+                >上架時間：由舊到新</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" id="order-dpitem" href="#"
+                >價格：由高至低</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" id="order-dpitem" href="#"
+                >價格：由低至高</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" id="order-dpitem" href="#"
+                >銷量：由高至低</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="dropdown-sec" id="order-dropdown">
+          <a
+            class="btn btn-secondary dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            每頁顯示15個
+          </a>
+          <ul class="dropdown-menu" id="order-dpmenu">
+            <li>
+              <a class="dropdown-item" id="order-dpitem" href="#"
+                >每頁顯示12個</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" id="order-dpitem" href="#"
+                >每頁顯示15個</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" id="order-dpitem" href="#">全部顯示</a>
+            </li>
+          </ul>
+        </div>
+        <!--navbar-->
+        <div class="order-nav">
+          <label for="switch"><img src="./img/img_order/Group 111.png" /></label
+          ><!--漢堡按鈕圖示-->
+          <input type="checkbox" id="switch"><!--選單開關-->
+          <ul class="menu">
+            <!--選單內容-->
+            <li><a href="##">春節禮盒<a></li>
+            <li><a href="##">蛋黃酥禮盒</a></li>
+            <li><a href="##">綜合牛軋糖</a></li>
+            <li><a href="##">鳳梨酥</a></li>
+            <li><a href="##">三星蔥蛋捲</a></li>
+            <li><a href="##">手工餅乾</a></li>
+            <li><a href="##">奶凍捲</a></li>
+            <li><a href="##">派・拿破崙</a></li>
+            <li><a href="##">狀元餅</a></li>
+            <li><a href="##">喜餅</a></li>
+            <li><a href="##">YQ餅</a></li>
+            <li><a href="##">切達乳酪狀元餅</a></li>
+            <li><a href="##">桂圓・金棗蛋糕</a></li>
+            <li><a href="##">宜蘭餅牛舌餅</a></li>
+            <li><a href="##">彌月禮盒</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <ul class="firstLine">
+      <li class="product">
+        <div class="productsImage">
+          <img src="./img/img_order/1_1.png" alt="1_1" />
+          <!--hide block-->
+          <div class="hideblock">
+            <div class="productsName">
+              <a href="#"><p>派・拿破崙</p></a>
+            </div>
+            <div class="productsNotice">
+                <img src="./img/img_order/1.2_product_keepnotice.jpg"
+              />
+            </div>
+            <div class="productsExplain">
+              <p>原味<br>| 300g/1條 |<br>長21.6cm x 寬8.5cm x 高6.8cm</p>
+            </div>
+            <div class="addToCart">
+              <a href="#">加入購物車</a>
+            </div>
+            <div class="productsPrice">
+              <p>NT$170</p>
+            </div>
+          </div>
+        </div>
+        <div class="productsName">
+          <a href="#"><p>派・拿破崙</p></a>
+        </div>
+        <div class="productsNotice">
+            <img src="./img/img_order/1.2_product_keepnotice.jpg"
+          />
+        </div>
+        <div class="productsPrice">
+          <p>NT$170</p>
+        </div>
+      </li>
+
+      <!--product2-->
+      <li class="product">
+        <div class="productsImage">
+          <img src="./img/img_order/productsImage2.png" alt="1_1"/>
+          <!--hide block-->
+          <div class="hideblock">
+            <div class="productsName">
+              <a href="#"><p>巧派・拿破崙</p></a>
+            </div>
+            <div class="productsNotice">
+                <img src="./img/img_order/1.2_product_keepnotice.jpg"
+              />
+            </div>
+            <div class="productsExplain">
+              <p>巧克力<br>| 300g/1條 |<br>長21.6cm x 寬8.5cm x 高6.8cm</p>
+            </div>
+            <div class="addToCart">
+              <a href="#">加入購物車</a>
+            </div>
+            <div class="productsPrice">
+              <p>NT$170</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="productsName">
+          <a href="#"><p>巧派・拿破崙</p></a>
+        </div>
+        <div class="productsNotice">
+            <img src="./img/img_order/1.2_product_keepnotice.jpg"
+          />
+        </div>
+        <div class="productsPrice">
+            <p>NT$170</p>
+        </div>
+      </li>
+      <!--product3-->
+      <li class="product">
+        <div class="productsImage">
+          <img src="./img/img_order/productsImage3.png" alt="1_1"/>
+          <!--hide block-->
+          <div class="hideblock">
+            <div class="productsName">
+              <a href="#"><p>原味奶凍</p></a>
+            </div>
+            <div class="productsNotice">
+                <img src="./img/img_order/1.2_product_keepnotice.jpg"
+              />
+            </div>
+            <div class="productsExplain">
+              <p>原味<br>| 520g/1條 |<br>長21.6cm x 寬8.5cm x 高6.8cm</p>
+            </div>
+            <div class="addToCart">
+              <a href="#">加入購物車</a>
+            </div>
+            <div class="productsPrice">
+              <p>NT$170</p>
+            </div>
+          </div>
+        </div>
+        <div class="productsName">
+          <a href="#"><p>原味奶凍</p></a>
+        </div>
+        <div class="productsNotice">
+            <img src="./img/img_order/1.2_product_keepnotice.jpg"
+          />
+        </div>
+        <div class="productsPrice">
+            <p>NT$170</p></a>
+        </div>
+      </li>
+
+      <!--product1_1-->
+      <li class="product">
+        <div class="productsImage">
+          <img src="./img/img_order/productsImage4.png" alt="1_1" />
+          <!--hide block-->
+          <div class="hideblock">
+            <div class="productsName">
+              <a href="#"><p>純芋奶凍</p></a>
+            </div>
+            <div class="productsNotice">
+                <img src="./img/img_order/1.2_product_keepnotice.jpg"
+              />
+            </div>
+            <div class="productsExplain">
+              <p>純芋<br>| 600g/1條 |<br>長21.6cm x 寬8.5cm x 高6.8cm</p>
+            </div>
+            <div class="addToCart">
+              <a href="#">加入購物車</a>
+            </div>
+            <div class="productsPrice">
+              <p>NT$170</p>
+            </div>
+          </div>
+        </div>
+        <div class="productsName">
+          <a href="#"><p>純芋奶凍</p></a>
+        </div>
+        <div class="productsNotice">
+            <img src="./img/img_order/1.2_product_keepnotice.jpg"
+          />
+        </div>
+        <div class="productsPrice">
+          <p>NT$170</p>
+        </div>
+      </li>
+
+      <!--product2-->
+      <li class="product">
+        <div class="productsImage">
+          <img src="./img/img_order/productsImage5.png" alt="1_1"/>
+          <!--hide block-->
+          <div class="hideblock">
+            <div class="productsName">
+              <a href="#"><p>提拉奶凍</p></a>
+            </div>
+            <div class="productsNotice">
+                <img src="./img/img_order/1.2_product_keepnotice.jpg"
+              />
+            </div>
+            <div class="productsExplain">
+              <p>提拉米蘇<br>| 480g/1條 |<br>長21.6cm x 寬8.5cm x 高6.8cm</p>
+            </div>
+            <div class="addToCart">
+              <a href="#">加入購物車</a>
+            </div>
+            <div class="productsPrice">
+              <p>NT$170</p>
+            </div>
+          </div>
+        </div>
+        <div class="productsName">
+          <a href="#"><p>提拉奶凍</p></a>
+        </div>
+        <div class="productsNotice">
+            <img src="./img/img_order/1.2_product_keepnotice.jpg"
+          />
+        </div>
+        <div class="productsPrice">
+            <p>NT$170</p>
+        </div>
+      </li>
+      <!--product3-->
+      <li class="product">
+        <div class="productsImage">
+          <img src="./img/img_order/productsImage6.png" alt="1_1"/>
+          <!--hide block-->
+          <div class="hideblock">
+            <div class="productsName">
+              <a href="#"><p>草莓奶凍</p></a>
+            </div>
+            <div class="productsNotice">
+                <img src="./img/img_order/1.2_product_keepnotice.jpg"
+              />
+            </div>
+            <div class="productsExplain">
+              <p>草莓<br>| 520g/1條 |<br>長21.6cm x 寬8.5cm x 高6.8cm</p>
+            </div>
+            <div class="addToCart">
+              <a href="#">加入購物車</a>
+            </div>
+            <div class="productsPrice">
+              <p>NT$170</p>
+            </div>
+          </div>
+        </div>
+        <div class="productsName">
+          <a href="#"><p>草莓奶凍</p></a>
+        </div>
+        <div class="productsNotice">
+            <img src="./img/img_order/1.2_product_keepnotice.jpg"
+          />
+        </div>
+        <div class="productsPrice">
+            <p>NT$170</p></a>
+        </div>
+      </li>
+      <!--product3_1-->
+      <li class="product">
+        <div class="productsImage">
+          <img src="./img/img_order/productsImage7.png" alt="1_1"/>
+          <!--hide block-->
+          <div class="hideblock">
+            <div class="productsName">
+              <a href="#"><p>雙星禮盒-A款</p></a>
+            </div>
+            <div class="productsNotice">
+                <img src="./img/img_order/1.2_product_keepnotice.jpg"
+              />
+            </div>
+            <div class="productsExplain">
+              <p>提拉奶凍、派・拿破崙<br>| 480g/1條+300g/1條 |<br>長25.1cm x 寬24.1cm x 高8.7cm</p>
+            </div>
+            <div class="addToCart">
+              <a href="#">加入購物車</a>
+            </div>
+            <div class="productsPrice">
+              <p>NT$340</p>
+            </div>
+          </div>
+        </div>
+        <div class="productsName">
+          <a href="#"><p>雙星禮盒-A款</p></a>
+        </div>
+        <div class="productsNotice">
+            <img src="./img/img_order/1.2_product_keepnotice.jpg"
+          />
+        </div>
+        <div class="productsPrice">
+          <p>NT$340</p>
+        </div>
+      </li>
+
+      <!--product2-->
+      <li class="product">
+        <div class="productsImage">
+          <img src="./img/img_order/productsImage8.png" alt="1_1"/>
+          <!--hide block-->
+          <div class="hideblock">
+            <div class="productsName">
+              <a href="#"><p>雙星禮盒-B款</p></a>
+            </div>
+            <div class="productsNotice">
+                <img src="./img/img_order/1.2_product_keepnotice.jpg"
+              />
+            </div>
+            <div class="productsExplain">
+              <p>純芋奶凍、巧派・拿破崙<br>| 600g/1條+300g/1條 |<br>長25.1cm x 寬24.1cm x 高8.7cm</p>
+            </div>
+            <div class="addToCart">
+              <a href="#">加入購物車</a>
+            </div>
+            <div class="productsPrice">
+              <p>NT$340</p>
+            </div>
+          </div>
+        </div>
+        <div class="productsName">
+          <a href="#"><p>雙星禮盒-B款</p></a>
+        </div>
+        <div class="productsNotice">
+            <img src="./img/img_order/1.2_product_keepnotice.jpg"
+          />
+        </div>
+        <div class="productsPrice">
+            <p>NT$340</p>
+        </div>
+      </li>
+      <!--product3-->
+      <li class="product">
+        <div class="productsImage">
+          <img src="./img/img_order/productsImage9.png" alt="1_1"/>
+          <!--hide block-->
+          <div class="hideblock">
+            <div class="productsName">
+              <a href="#"><p>奶凍雙星禮盒-C款</p></a>
+            </div>
+            <div class="productsNotice">
+                <img src="./img/img_order/1.2_product_keepnotice.jpg"
+              />
+            </div>
+            <div class="productsExplain">
+              <p>純芋奶凍、提拉奶凍<br>| 600g/1條+480g/1條 |<br>長25.1cm x 寬24.1cm x 高8.7cm</p>
+            </div>
+            <div class="addToCart">
+              <a href="#">加入購物車</a>
+            </div>
+            <div class="productsPrice">
+              <p>NT$340</p>
+            </div>
+          </div>
+        </div>
+        <div class="productsName">
+          <a href="#"><p>奶凍雙星禮盒-C款</p></a>
+        </div>
+        <div class="productsNotice">
+            <img src="./img/img_order/1.2_product_keepnotice.jpg"
+          />
+        </div>
+        <div class="productsPrice">
+            <p>NT$340</p></a>
+        </div>
+      </li>
+    <!--product4_1-->
+      <li class="product">
+        <div class="productsImage">
+          <img src="./img/img_order/productsImage10.png" alt="1_1"/>
+          <!--hide block-->
+          <div class="hideblock">
+            <div class="productsName">
+              <a href="#"><p>奶凍專用保冷袋</p></a>
+            </div>
+            <div class="productsNotice">
+                <img src="./img/img_order/1.2_product_keepnotice.jpg"
+              />
+            </div>
+            <div class="addToCart">
+              <a href="#">加入購物車</a>
+            </div>
+            <div class="productsPrice">
+              <p>NT$39</p>
+            </div>
+          </div>
+        </div>
+        <div class="productsName">
+          <a href="#"><p>奶凍專用保冷袋</p></a>
+        </div>
+        <div class="productsNotice">
+            <img src="./img/img_order/1.2_product_keepnotice.jpg"
+          />
+        </div>
+        <div class="productsPrice">
+          <p>NT$39</p>
+        </div>
+      </li>
+
+      <!--product2-->
+      <li class="product">
+        <div class="productsImage">
+          <img src="./img/img_order/productsImage11.png" alt="1_1"/>
+          <!--hide block-->
+          <div class="hideblock">
+            <div class="productsName">
+              <a href="#"><p>童心</p></a>
+            </div>
+            <div class="productsNotice">
+                <img src="./img/img_order/1.2_product_keepnotice.jpg"
+              />
+            </div>
+            <div class="productsExplain">
+              <p>蜂蜜蛋糕、純芋奶凍、小牛舌餅<br>| 一盒裝 |<br>	長25.1cm x 寬24.1cm x 高8.7cm</p>
+            </div>
+            <div class="addToCart">
+              <a href="#">加入購物車</a>
+            </div>
+            <div class="productsPrice">
+              <p>NT$270</p>
+            </div>
+          </div>
+        </div>
+        <div class="productsName">
+          <a href="#"><p>童心</p></a>
+        </div>
+        <div class="productsNotice">
+            <img src="./img/img_order/1.2_product_keepnotice.jpg"
+          />
+        </div>
+        <div class="productsPrice">
+            <p>NT$270</p>
+        </div>
+      </li>
+      <!--product3-->
+      <li class="product">
+        <div class="productsImage">
+          <img src="./img/img_order/productsImage12.png" alt="1_1"/>
+          <!--hide block-->
+          <div class="hideblock">
+            <div class="productsName">
+              <a href="#"><p>福心</p></a>
+            </div>
+            <div class="productsNotice">
+                <img src="./img/img_order/1.2_product_keepnotice.jpg"
+              />
+            </div>
+            <div class="productsExplain">
+              <p>巧派・拿破崙、<br>小牛舌餅、小切達乳酪<br>| 一盒裝 |<br>長25.1cm x 寬24.1cm x 高8.7cm</p>
+            </div>
+            <div class="addToCart">
+              <a href="#">加入購物車</a>
+            </div>
+            <div class="productsPrice">
+              <p>NT$300</p>
+            </div>
+          </div>
+        </div>
+        <div class="productsName">
+          <a href="#"><p>福心</p></a>
+        </div>
+        <div class="productsNotice">
+            <img src="./img/img_order/1.2_product_keepnotice.jpg"
+          />
+        </div>
+        <div class="productsPrice">
+            <p>NT$300</p></a>
+        </div>
+      </li>
+    </ul>
+
+    <!--footer-->
+    <div class="footer">
+      <div class="logo">
+        <img src="./img/icon.png" />
+      </div>
+      <div class="right-imformation">
+        <div class="shopping">
+          <div class="category">購物中心</div>
+          <div class="text">
+            <a href="#">快速訂購</a><br /><br />
+            <a href="#">一般訂購</a><br /><br />
+            <a href="#">送禮專區</a><br /><br />
+            <a href="#">下載訂購單</a><br />
+          </div>
+        </div>
+        <div class="service">
+          <div class="category">客服中心</div>
+          <div class="text">
+            <a href="#">常見問題</a><br /><br />
+            <a href="#">意見回覆</a>
+          </div>
+        </div>
+        <div class="branch">
+          <div class="category">門市資訊</div>
+          <div class="text">
+            <a href="#">
+              礁 溪 店03-9876336<br />
+              宜蘭縣礁溪鄉礁溪路5段96號 </a
+            ><br />
+            <br />
+            <a href="#">
+              羅 東 店 03-9550216<br />
+              宜蘭縣羅東鎮民權路160號<br />
+            </a>
+            <br />
+            <a href="#">
+              宜 蘭 店 03-9334536<br />
+              宜蘭縣宜蘭市神農路2段17號
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--copyright-->
+    <div class="copyright">
+      Copyright © All right reserved / Designed by : FADNOR Interactive Media /
+      <a href="#">購物須知與細則</a> / <a href="#">產品營養標示 </a>/
+      <a href="#">產品責任險</a>
+    </div>
+
+   <script
+      src="./js/bootstrap.bundle.min.js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,707 @@
+@font-face {
+  font-family: "GenJyuuGithicX_Medium";
+  src: url(../font/ttf/GenJyuuGothicX-Medium.ttf);
+  src: url(../font/ttf/GenJyuuGothicX-Medium.ttf) format("truetype"),
+    url(../font/eot/GenJyuuGothicX-Medium.eot) format("embedded-opentype");
+
+  src: url(../font/ttf/GenJyuuGothicX-Regular.ttf);
+  src: url(../font/ttf//GenJyuuGothicX-Regular.ttf) format("truetype"),
+    url(../font/eot/GenJyuuGothicX-Normal.eot) format("embedded-opentype");
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "GenJyuuGothicX-Regular";
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+.bannercontainer {
+  background-image: url(../img/img_fast/Subtract.png),
+    url(../img/img_fast/Mask\ group.png);
+  background-size: 25%, contain;
+
+  height: 23vw;
+  background-repeat: no-repeat, no-repeat;
+
+  background-position: 14% 10.1vw, 0% 0vw;
+}
+
+.top-text {
+  text-align: center;
+  padding-top: 15vw;
+  padding-right: 53%;
+}
+
+.bannercontainer .top-text .zh {
+  font-size: 36px;
+  letter-spacing: 8px;
+  padding-bottom: 3px;
+  font-family: "GenJyuuGothicX-Medium";
+}
+
+.bannercontainer .top-text .en {
+  font-size: 32px;
+  letter-spacing: 6px;
+  font-family: "Basic", sans-serif;
+}
+
+.topcontainer {
+  padding-left: 12%;
+  padding-top: 50px;
+}
+
+.topcontainer .ctbutton {
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: #323232;
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+  height: auto;
+  line-height: 2.5;
+  vertical-align: middle;
+  border: none;
+}
+
+.ctbutton:hover {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #541052;
+  color: #541052;
+}
+
+.ctbutton:active {
+  background-color: #541052;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.tri {
+  float: left;
+  margin-right: 2%;
+  padding-top: 8px;
+  padding-bottom: 60px;
+}
+
+.sm-text {
+  padding-top: 36px;
+}
+
+.sm-p {
+  width: 95%;
+  line-height: 200%;
+  letter-spacing: 2px;
+}
+
+.topleft-content,
+.food-icon {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 42%;
+  margin: 10px;
+}
+
+.food-icon {
+  padding-left: 1%;
+}
+
+.food-icon div {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 2px;
+  padding-bottom: 2px;
+}
+
+.food-icon div img,
+.food-icon div p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.food-icon div img {
+  width: 20px;
+}
+.styled-table {
+  margin-top: 60px;
+  font-family: sans-serif;
+  height: auto;
+  border-radius: 12px;
+}
+
+.styled-table tbody .table-head {
+  background-color: #f0f0f0;
+}
+
+.styled-table thead tr th {
+  background-color: #541052;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  width: 20%;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th {
+  padding: 22px 170px 22px 15px;
+  font-size: 16px;
+}
+
+.styled-table tbody td {
+  padding: 6px 10px;
+  font-size: 16px;
+}
+
+.table-head td {
+  padding: 15px 10px;
+}
+
+.active-row .co-1 {
+  width: 55%;
+}
+
+.active-row .co-2 {
+  width: 40%;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.active-row .co-2 img {
+  width: 16%;
+}
+
+.table-head .col-3,
+.active-row .co-3 {
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  text-align: right;
+  padding: 18px 0px;
+}
+
+.table-head .col-3 {
+  text-align: left;
+}
+
+.active-row .co-3 img,
+.active-row .co-3 p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.active-row .co-3 p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.table-head .col-4,
+.active-row .co-4 {
+  text-align: center;
+  width: 100%;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #323232;
+}
+
+/*.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #541052;
+}*/
+
+.styled-table tbody tr.active-row {
+  font-weight: 400;
+  color: #000000;
+}
+
+#l1 {
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  border-style: solid;
+  border-color: #541052;
+  border-radius: 10px;
+}
+
+tfoot tr td {
+  vertical-align: middle;
+  padding: 10px 10px;
+}
+
+tfoot tr td .ps-content {
+  margin-bottom: 10px;
+}
+
+tfoot tr td p {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  width: 94%;
+}
+
+tfoot tr td img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 4%;
+}
+
+.table-container {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10%;
+}
+
+.left-table,
+.right-table {
+  display: inline-block;
+  vertical-align: top;
+  width: 39%;
+  margin: 0px 2.5%;
+}
+
+.bottom-container {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bottom-content {
+  padding-bottom: 30px;
+}
+
+.bottom-content img,
+.bottom-content p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.bottom-container .button {
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: #323232;
+  width: 10%;
+  text-align: center;
+  display: inline-block;
+  height: auto;
+  line-height: 2.5;
+  vertical-align: middle;
+  border: none;
+}
+
+.bottom-container .button:hover {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #541052;
+  color: #541052;
+}
+
+.bottom-container .button:active {
+  background-color: #541052;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.notes-content img,
+.notes-content p {
+  display: inline-block;
+  vertical-align: top;
+}
+.notes-content img {
+  padding-top: 4px;
+  width: 15px;
+}
+
+.notes-content p {
+  display: inline-block;
+  word-wrap: break-word;
+  width: 93%;
+  line-height: 150%;
+}
+
+.notes-content {
+  margin-bottom: 10px;
+}
+
+.notes-right,
+.notes-left {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 44%;
+  margin-right: 7%;
+}
+
+.notes-right {
+  margin-right: 4%;
+}
+
+.notes-container {
+  width: 75%;
+  margin-left: 11%;
+}
+
+#notes-h {
+  margin-bottom: 30px;
+}
+
+.notes-container {
+  background-color: #f0f0f0;
+  width: 78%;
+  padding: 30px 20px 15px 30px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1999px) {
+  .bannercontainer {
+    background-image: url(../img/img_fast/Subtract.png),
+      url(../img/img_fast/Mask\ group.png);
+    background-size: 25%, contain;
+
+    height: 28vw;
+    background-repeat: no-repeat, no-repeat;
+
+    background-position: 14% 15.1vw, 0% 5vw;
+  }
+
+  .top-text {
+    text-align: center;
+    padding-top: 22vw;
+    padding-right: 53%;
+  }
+
+  .tri {
+    float: left;
+    margin-right: 2%;
+    padding-top: 8px;
+    padding-bottom: 85px;
+  }
+}
+
+@media (max-width: 991px) {
+  .bannercontainer {
+    background-image: url(../img/img_fast/Subtract.png),
+      url(../img/img_fast/Mask\ group.png);
+    background-size: 25%, contain;
+
+    height: 29vw;
+    background-repeat: no-repeat, no-repeat;
+
+    background-position: 14% 17.1vw, 0% 9vw;
+  }
+  .bannercontainer .top-text .zh {
+    font-size: 28px;
+    letter-spacing: 8px;
+    padding-bottom: 3px;
+    font-family: "GenJyuuGothicX-Medium";
+  }
+
+  .bannercontainer .top-text .en {
+    font-size: 24px;
+    letter-spacing: 6px;
+    font-family: "Basic", sans-serif;
+  }
+
+  .topcontainer .ctbutton {
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #323232;
+    width: 38%;
+    text-align: center;
+    display: inline-block;
+    height: auto;
+    line-height: 2.5;
+    vertical-align: middle;
+    border: none;
+  }
+
+  .bottom-container .button {
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #323232;
+    width: 14%;
+    text-align: center;
+    display: inline-block;
+    height: auto;
+    line-height: 2.5;
+    vertical-align: middle;
+    border: none;
+  }
+
+  .active-row .co-2 img {
+    width: 28%;
+  }
+}
+
+@media (max-width: 767px) {
+  .styled-table {
+    margin-top: 30px;
+    font-family: sans-serif;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  .styled-table tbody .table-head {
+    background-color: #f0f0f0;
+  }
+
+  .styled-table thead tr {
+    background-color: #541052;
+    border-radius: 12px;
+    height: 44px;
+    width: 20%;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .styled-table th {
+    padding: 22px 170px 22px 15px;
+    font-size: 16px;
+  }
+
+  .styled-table tbody td {
+    padding: 6px 10px;
+    font-size: 16px;
+  }
+
+  .table-head td {
+    padding: 15px 10px;
+  }
+
+  .active-row .co-1 {
+    width: 55%;
+  }
+
+  .active-row .co-2 {
+    width: 40%;
+    vertical-align: middle;
+    text-align: right;
+  }
+
+  .active-row .co-2 img {
+    width: 20px;
+  }
+
+  .table-head .col-3,
+  .active-row .co-3 {
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    text-align: right;
+    padding: 18px 0px;
+  }
+
+  .table-head .col-3 {
+    text-align: left;
+  }
+
+  .active-row .co-3 img,
+  .active-row .co-3 p {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .active-row .co-3 p {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .table-head .col-4,
+  .active-row .co-4 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .styled-table tbody tr {
+    border-bottom: 1px solid #323232;
+  }
+
+  /*.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #541052;
+}*/
+
+  .styled-table tbody tr.active-row {
+    font-weight: 400;
+    color: #000000;
+  }
+
+  #l1 {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border-style: solid;
+    border-color: #541052;
+    border-radius: 10px;
+  }
+
+  tfoot tr td {
+    vertical-align: middle;
+    padding: 10px 10px;
+  }
+
+  tfoot tr td .ps-content {
+    margin-bottom: 10px;
+  }
+
+  tfoot tr td p {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+  }
+
+  tfoot tr td img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 4%;
+  }
+
+  .table-container {
+    padding-left: 10%;
+    height: auto;
+  }
+
+  .left-table,
+  .right-table {
+    display: inline-block;
+    width: 80%;
+    margin: 0px 5.5%;
+  }
+
+  .bannercontainer {
+    background-image: url(../img/img_fast/Subtract.png),
+      url(../img/img_fast/Mask\ group.png);
+    background-size: 28%, contain;
+
+    height: 35vw;
+    background-repeat: no-repeat, no-repeat;
+
+    background-position: 14% 22.1vw, 0% 13vw;
+  }
+  .bannercontainer .top-text .zh {
+    font-size: 24px;
+    letter-spacing: 4px;
+    padding-bottom: 3px;
+    font-family: "GenJyuuGothicX-Medium";
+  }
+
+  .bannercontainer .top-text .en {
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-family: "Basic", sans-serif;
+  }
+
+  .top-text {
+    text-align: center;
+    padding-top: 27vw;
+    padding-right: 51%;
+  }
+
+  .topcontainer .ctbutton {
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #323232;
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    height: auto;
+    line-height: 2.5;
+    vertical-align: middle;
+    border: none;
+  }
+
+  .topleft-content,
+  .food-icon {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 88%;
+    margin: 10px;
+  }
+
+  .food-icon {
+    padding-left: 5%;
+    margin: 0px;
+  }
+
+  .sm-p {
+    width: 95%;
+    line-height: 200%;
+    letter-spacing: 2px;
+  }
+
+  .bottom-container {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .bottom-container .button {
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #323232;
+    width: 18%;
+    text-align: center;
+    display: inline-block;
+    height: auto;
+    line-height: 2.5;
+    vertical-align: middle;
+    border: none;
+  }
+
+  .notes-container {
+    width: 76%;
+    margin-left: 12%;
+  }
+
+  .notes-right,
+  .notes-left {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 97%;
+    margin-left: 4%;
+  }
+
+  .notes-content {
+    padding: 5px 0;
+  }
+  .notes-content img {
+    padding-top: 4px;
+    width: 15px;
+  }
+
+  .notes-content p {
+    display: inline-block;
+    word-wrap: break-word;
+    width: 93%;
+    line-height: 150%;
+  }
+
+  @media (max-width: 545px) {
+    .bannercontainer {
+      background-image: url(../img/img_fast/Subtract.png),
+        url(../img/img_fast/Mask\ group.png);
+      background-size: 28%, contain;
+
+      height: 36vw;
+      background-repeat: no-repeat, no-repeat;
+
+      background-position: 14% 22.1vw, 0% 17vw;
+    }
+  }
+}

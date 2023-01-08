@@ -1,0 +1,610 @@
+/*字體*/
+@font-face {
+  font-family: "GenJyuuGithicX_Medium";
+  src: url(../font_ttf/GenJyuuGothicX-Medium.ttf);
+  src: url(../font_ttf/GenJyuuGothicX-Medium.ttf) format("truetype"),
+    url(../font/eot/GenJyuuGothicX-Medium.eot) format("embedded-opentype");
+}
+
+p {
+  margin: 0;
+  line-height: 180%;
+}
+/*第二區 購物流程*/
+
+.main-patterens {
+  width: 80%;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 140px;
+}
+
+.patterens {
+  padding: 60px 0%;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  width: 35%;
+}
+.circles1 {
+  width: 54px;
+  height: 54px;
+  font-size: 24px;
+  line-height: 54px;
+  background-color: #541052;
+  border-radius: 50%;
+  color: #ffffff;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+}
+.patterens .circles1 p {
+  font-size: 24px;
+  color: #541052;
+}
+
+.circles {
+  width: 54px;
+  height: 54px;
+  font-size: 24px;
+  line-height: 54px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  color: #ffffff;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+}
+
+.main-patterens .patterens p {
+  font-size: 24px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.triangles {
+  width: 0;
+  height: 0;
+  display: block;
+  border-top: 18px solid transparent;
+  border-left: 22px solid #d9d9d9;
+  border-bottom: 18px solid transparent;
+  margin-top: 130px;
+}
+
+/*第三區 選購商品*/
+
+.date p {
+  color: #541052;
+  font-size: 20px;
+  font-family: "GenJyuuGothicX-Medium";
+  padding: 2% 13%;
+}
+
+.content p {
+  font-size: 24px;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.content-bar-l1 {
+  background-color: #541052;
+  height: 80px;
+  color: #ffffff;
+  padding: 15px 2%;
+  width: 75%;
+  margin: 0 auto;
+}
+.content-bar-l1 p {
+  font-size: 24px;
+}
+
+.all-selected {
+  float: left;
+}
+
+.select-bar {
+  display: flex;
+  width: 89%;
+  float: right;
+  text-align: right;
+}
+
+.select-bar p {
+  display: inline-block;
+  vertical-align: middle;
+  width: 23.5%;
+}
+
+#select {
+  width: 44px;
+  height: 44px;
+}
+.pineapple_cake_title {
+  color: #541052;
+}
+
+.content-item-l1 p {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5%;
+}
+
+.price {
+  margin-left: 11.2%;
+}
+
+.quantity {
+  margin-left: 4.2%;
+}
+.quantity select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../img/img_pay/arrow.png) no-repeat scroll right center;
+}
+
+.content-item-l1 img {
+  width: 20%;
+  margin: 0 3.5%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.content-item-l1 {
+  width: 70%;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.content-item-l1 select {
+  color: #dcdcdc;
+  width: 345%;
+  height: 49px;
+  position: relative;
+  border-radius: 12px;
+  border: #541052 solid 3px;
+  padding-left: 33%;
+}
+
+/*第四區 總額*/
+
+.main-total {
+  width: 70%;
+  background-color: #dcdcdc;
+  padding: 20px 2% 20px 45%;
+  border-radius: 12px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.note-top {
+  margin-bottom: 25px;
+  border-bottom: 3px solid #323232;
+}
+
+.left-text,
+.right-text {
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 14px;
+}
+
+.bottom-left,
+.bottom-right {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.left-text {
+  padding-right: 12%;
+}
+
+.bottom-left {
+  padding-right: 18.2%;
+}
+
+/*第五區 付款方式*/
+
+.main-title,
+.title {
+  font-size: 32px;
+  letter-spacing: 8px;
+  font-family: "GenJyuuGothicX-Medium";
+  width: 70%;
+  background-color: #dcdcdc;
+  text-align: center;
+  color: #323232;
+  padding: 1% 0;
+  margin: 88px auto 0;
+}
+.main-content {
+  display: flex;
+  width: 57%;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 64px;
+}
+
+.icons img {
+  padding: 20px;
+}
+
+.icons {
+  width: 33%;
+  text-align: center;
+}
+
+.button {
+  background-color: #323232;
+  width: 65%;
+  height: 60px;
+  border-radius: 14px;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+}
+.button:hover {
+  background-color: #ffffff;
+  border: #541052 solid 3px;
+  font-size: 24px;
+  color: #541052;
+  text-align: center;
+}
+.button:active {
+  background-color: #541052;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.note {
+  padding-bottom: 28px;
+}
+
+.note p {
+  background-color: #541052;
+  width: 46%;
+  border-radius: 14px;
+  font-size: 16px;
+  line-height: 180%;
+  color: #ffffff;
+  text-align: left;
+  padding: 2% 2%;
+  margin: 0 auto;
+  padding-bottom: 45px;
+}
+
+/*第六區 下一步上一步按鈕*/
+.button-container {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+
+.button-container .button {
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: #323232;
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+  height: 50px;
+  line-height: 2.5;
+  vertical-align: middle;
+  border: none;
+  margin: 30px;
+}
+
+.button-container .button:hover {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #541052;
+  color: #541052;
+  height: 50px;
+}
+
+.buttom-container .button:active {
+  background-color: #541052;
+  border-radius: 10px;
+  color: #ffffff;
+  height: 50px;
+}
+
+.note-buttom p {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  color: #323232;
+  margin-bottom: 100px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + span {
+  display: inline-block;
+  padding-left: 26px;
+  line-height: 20px;
+  background: url(../img/check_box_outline_blank_FILL0_wght400_GRAD0_opsz48.svg)
+    no-repeat left top;
+  user-select: none;
+  font-size: 24px;
+}
+input[type="checkbox"]:checked + span {
+  background: url(../img/check_box_whiteall.svg) no-repeat left top;
+}
+
+label {
+  display: inline-block;
+  padding-top: 16px;
+}
+
+.pur input[type="checkbox"] + span {
+  display: inline-block;
+  padding-left: 26px;
+  line-height: 20px;
+  background: url(../img/check_box_purol.svg) no-repeat left top;
+  user-select: none;
+  color: #ffffff;
+}
+.pur input[type="checkbox"]:checked + span {
+  background: url(../img/check_box_purall.svg) no-repeat left top;
+}
+
+.pur label {
+  display: inline-block;
+  padding-top: 7px;
+}
+
+@media (max-width: 767px) {
+  .main-patterens .patterens p {
+    font-size: 16px;
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  .circles {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    line-height: 48px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    color: #ffffff;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .circles1 {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    line-height: 48px;
+    background-color: #541052;
+    border-radius: 50%;
+    color: #ffffff;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .triangles {
+    width: 0;
+    height: 0;
+    display: block;
+    border-top: 10px solid transparent;
+    border-left: 14px solid #d9d9d9;
+    border-bottom: 9px solid transparent;
+    margin-top: 130px;
+  }
+
+  .main-title {
+    font-size: 24px;
+    letter-spacing: 8px;
+    font-family: "GenJyuuGothicX-Medium";
+    width: 75%;
+    background-color: #dcdcdc;
+    text-align: center;
+    color: #323232;
+    padding: 1% 0;
+    margin: 20px auto 0;
+  }
+
+  .select-bar {
+    display: flex;
+    width: 80%;
+    float: right;
+    text-align: right;
+    font-size: 16px;
+  }
+
+  .select-bar p {
+    display: inline-block;
+    vertical-align: middle;
+    width: 23.5%;
+    font-size: 16px;
+  }
+
+  .content-bar-l1 p {
+    font-size: 16px;
+  }
+
+  .content-bar-l1 {
+    background-color: #541052;
+    height: 55px;
+    color: #ffffff;
+    padding: 10px 2%;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .content-item-l1 p {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0%;
+  }
+
+  .pineapple_cake_title {
+    margin-left: 1%;
+  }
+
+  .price {
+    margin-left: 10%;
+  }
+
+  .quantity {
+    margin-left: 10.2%;
+  }
+
+  .total-r {
+    margin-left: 15%;
+  }
+
+  .main-total {
+    width: 75%;
+    background-color: #dcdcdc;
+    padding: 20px 2% 20px 40%;
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .main-content {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 23px;
+    padding-bottom: 64px;
+  }
+
+  .main-title,
+  .title {
+    font-size: 32px;
+    letter-spacing: 8px;
+    font-family: "GenJyuuGothicX-Medium";
+    width: 75%;
+    background-color: #dcdcdc;
+    text-align: center;
+    color: #323232;
+    padding: 1% 0;
+    margin: 20px auto 0;
+  }
+
+  .icons img {
+    width: 64%;
+  }
+
+  .button {
+    background-color: #323232;
+    width: 75%;
+    height: 50px;
+    border-radius: 12px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+  }
+
+  .note p {
+    background-color: #541052;
+    width: 74%;
+    border-radius: 14px;
+    font-size: 16px;
+    line-height: 180%;
+    color: #ffffff;
+    text-align: left;
+    padding: 20px 3%;
+    margin: 0 auto;
+    padding-bottom: 45px;
+  }
+
+  .button-container {
+    width: 56%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 16px;
+  }
+
+  .note-buttom p {
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+    color: #323232;
+    margin-bottom: 100px;
+    margin-top: 40px;
+  }
+
+  .button-container .button {
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 12px;
+    background-color: #323232;
+    width: 32%;
+    text-align: center;
+    display: inline-block;
+    height: 50px;
+    line-height: 2.5;
+    vertical-align: middle;
+    border: none;
+    margin: 0px 5%;
+  }
+
+  .date p {
+    color: #541052;
+    font-size: 16px;
+    font-family: "GenJyuuGothicX-Medium";
+    padding: 2% 13%;
+  }
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  input[type="checkbox"] + span {
+    display: inline-block;
+    padding-left: 26px;
+    line-height: 20px;
+    background: url(../img/check_box_outline_blank_FILL0_wght400_GRAD0_opsz48.svg)
+      no-repeat left top;
+    user-select: none;
+  }
+  input[type="checkbox"]:checked + span {
+    background: url(../img/check_box_whiteall.svg) no-repeat left top;
+  }
+
+  label {
+    display: inline-block;
+    padding-top: 7px;
+  }
+
+  .pur input[type="checkbox"] + span {
+    display: inline-block;
+    padding-left: 26px;
+    line-height: 20px;
+    background: url(../img/check_box_purol.svg) no-repeat left top;
+    user-select: none;
+    color: #ffffff;
+  }
+  .pur input[type="checkbox"]:checked + span {
+    background: url(../img/check_box_purall.svg) no-repeat left top;
+  }
+
+  .pur label {
+    display: inline-block;
+    padding-top: 7px;
+  }
+}

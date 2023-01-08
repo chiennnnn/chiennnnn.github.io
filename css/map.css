@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "GenJyuuGithicX_Medium";
+  src: url(../font/ttf/GenJyuuGothicX-Medium.ttf);
+  src: url(../font/ttf/GenJyuuGothicX-Medium.ttf) format("truetype"),
+    url(../font/eot/GenJyuuGothicX-Medium.eot) format("embedded-opentype");
+
+  src: url(../font/ttf/GenJyuuGothicX-Regular.ttf);
+  src: url(../font/ttf//GenJyuuGothicX-Regular.ttf) format("truetype"),
+    url(../font/eot/GenJyuuGothicX-Normal.eot) format("embedded-opentype");
+}
+
+body {
+  font-family: "GenJyuuGothicX-Regular";
+  margin-top: 50px;
+}
+
+.body h1 {
+  color: #000000;
+  font-size: 36px;
+}
+/*nav*/
+.nav {
+  background-color: #541052;
+  color: #ffffff;
+}
+.nav a {
+  background-color: #541052;
+  color: #ffffff;
+  text-decoration: none;
+}
+.left-logo {
+  display: inline-block;
+  width: 20vw;
+  height: auto;
+  padding: 20px 4%;
+}
+.right-contents {
+  display: inline-block;
+  width: 55vw;
+  height: auto;
+  padding: 20px 4%;
+  text-align: center;
+}
+.right-contents a {
+  width: 7%;
+}
+
+/*title*/
+.title {
+  padding: 145px 0 0px 0;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.zh {
+  font-size: 36px;
+  letter-spacing: 8px;
+  font-family: "GenJyuuGothicX-Medium";
+}
+
+.en {
+  font-size: 32px;
+  letter-spacing: 3px;
+  font-family: "Basic", sans-serif;
+}
+/*map*/
+.imformation {
+  font-size: 16px;
+  color: #323232;
+  background-color: #f0f0f0;
+  margin: 150px 15% 150px 15%;
+  padding: 80px 3% 50px 3%;
+  position: relative;
+}
+.name {
+  display: inline-block;
+  background-color: #541052;
+  color: #ffffff;
+  padding: 11px 8% 0px 8%;
+  font-size: 32px;
+  text-align: center;
+  position: absolute;
+  top: -35px;
+  left: 36%;
+}
+.google-map {
+  width: 100%;
+  padding: 40px 0 0 0;
+}
+iframe {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  /*nav*/
+  .left-logo {
+    display: inline-block;
+    width: 20vw;
+    height: auto;
+    padding: 20px 4%;
+  }
+  .right-contents {
+    display: none;
+    width: 55vw;
+    height: auto;
+    padding: 20px 4%;
+    text-align: center;
+  }
+  .right-contents a {
+    width: 7%;
+  }
+
+  /*title*/
+  .title {
+    padding: 145px 0 0px 0;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .zh {
+    font-size: 24px;
+    letter-spacing: 8px;
+    font-family: "GenJyuuGothicX-Medium";
+  }
+
+  .en {
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-family: "Basic", sans-serif;
+  }
+  /*map*/
+  .imformation {
+    font-size: 16px;
+    color: #323232;
+    background-color: #f0f0f0;
+    margin: 150px 10% 150px 10%;
+    padding: 80px 10% 50px 10%;
+    position: relative;
+  }
+  .name {
+    display: inline-block;
+    background-color: #541052;
+    color: #ffffff;
+    padding: 15px 10% 0px 10%;
+    font-size: 24px;
+    text-align: center;
+    position: absolute;
+    top: -30px;
+    left: calc(25vw - 5%);
+  }
+  .jiaoxi .name {
+    display: inline-block;
+    background-color: #541052;
+    color: #ffffff;
+    padding: 15px 10% 0px 10%;
+    font-size: 24px;
+    text-align: center;
+    position: absolute;
+    top: -30px;
+    left: 33%;
+  }
+
+  .google-map {
+    width: 100%;
+    padding: 40px 0 0 0;
+  }
+  iframe {
+    width: 100%;
+  }
+}
