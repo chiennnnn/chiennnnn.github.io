@@ -70,20 +70,21 @@
   margin-top: 130px;
 }
 @media (min-width: 768px) {
-  body {
-    margin: none;
-  }
   .data {
     margin: 50px 16%;
     color: #541052;
     font-size: 24px;
   }
   .title-data {
-    margin: 30px 0 70px 0;
+    margin: 200px 0 70px 0;
   }
-  .line,
-  .line-width {
+  .line {
     margin: 30px 0;
+    display: block;
+  }
+  .notice {
+    font-size: 16px;
+    margin: 15px 0;
   }
   /*標題*/
   .title-data {
@@ -94,63 +95,199 @@
     display: block;
     text-align: center;
   }
-  .text {
-    display: inline-block;
-  }
-  /*input*/
+  /*input-text字級*/
   input::-webkit-input-placeholder {
     font-size: 16px;
   }
-  input {
+  /*input-text設定*/
+  input[type="text"] {
     border: #8b8b8b solid 3px;
     border-radius: 12px;
+    display: inline-block;
+    width: 70%;
   }
-  input:hover {
+  .second-line input[type="text"] {
+    border: #8b8b8b solid 3px;
+    border-radius: 12px;
+    display: inline-block;
+    width: 90%;
+  }
+  .thirdline-right input[type="text"] {
+    border: #8b8b8b solid 3px;
+    border-radius: 12px;
+    display: inline-block;
+    width: 91%;
+  }
+  .thirdline-left input[type="text"] {
+    border: #8b8b8b solid 3px;
+    border-radius: 12px;
+    display: inline-block;
+    width: 56.5%;
+  }
+  .forthline-right input[type="text"] {
+    border: #8b8b8b solid 3px;
+    border-radius: 12px;
+    display: inline-block;
+    width: 100%;
+  }
+  .tax-id input[type="text"] {
+    border: #8b8b8b solid 3px;
+    border-radius: 12px;
+    display: inline-block;
+    width: 100%;
+  }
+  .last-line input[type="text"] {
+    border: #8b8b8b solid 3px;
+    border-radius: 12px;
+    display: inline-block;
+    width: 38.5%;
+  }
+  input[type="text"]:hover {
     border: #541052 solid 3px;
     border-radius: 12px;
   }
-  input:active {
+  input[type="text"]:active {
     border: #541052 solid 3px;
     background-color: #f0f0f0;
     border-radius: 12px;
   }
-
-  .line-input::placeholder {
-    padding-left: 3%;
+  /*上半*/
+  /*第一行*/
+  .firstline-right {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+  }
+  .firstlineline-left,
+  .firstline-middle {
+    display: inline-block;
+    width: 39%;
+  }
+  .inline-p {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  .firstline-right label {
+    width: 35%;
+    padding: 0;
+  }
+  /*第二行*/
+  .second-line .inline-p {
+    margin-right: 4%;
+  }
+  /*第三行*/
+  .thirdline-right,
+  .thirdline-left {
+    display: inline-block;
+    width: 49%;
+  }
+  /*第四行*/
+  .forth-line .inline-p {
+    margin-right: 4%;
+  }
+  .forthline-right {
+    display: inline-block;
+    width: 49%;
   }
 
-  .e-mail {
-    width: 80%;
+  /*dropdown*/
+  .btn {
+    border: 2px solid #8b8b8b;
+    background-color: #fff;
+    color: #8b8b8b;
+    font-size: 16px;
+    width: 95%;
   }
-  .third-line-right,
-  .third-line-left,
+  .dropdown-one {
+    display: inline-block;
+    width: 27%;
+  }
+  .dropdown-two {
+    display: inline-block;
+    width: 13.5%;
+  }
+  /*下半*/
+  /*第一行*/
   .first-line-left {
     display: inline-block;
+    width: 49%;
+  }
+  .first-line-right {
+    display: inline-block;
+    width: 49%;
+    margin-top: 0.5%;
+  }
+  .first-line-left,
+  .first-line-right {
+    vertical-align: top;
+  }
+  .first-line-bottom .inline-p {
+    margin-right: 4%;
+  }
+  .first-line-right {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+  }
+  .first-line-right label {
+    width: 35%;
+    padding: 0;
+  }
+
+  /*第五行*/
+  .fifth-line-left {
+    display: inline-block;
+    width: 20%;
+  }
+  .fifth-line .inline-p {
+    width: 100%;
+    margin-right: 30%;
+  }
+  .fifth-line-right {
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+  }
+  .fifth-line-radio {
+    display: inline-block;
+    width: 20%;
+  }
+  .radio-not-block {
+    display: inline-block;
+    width: 55%;
+  }
+  /*第六行*/
+  .tax-id {
+    display: inline-block;
+    margin-left: 5%;
+    width: 50%;
+  }
+  /*第七行*/
+  .last-line .inline-p {
+    margin-right: 9%;
   }
   /*button*/
   .button {
-    margin: 100px auto;
-  }
-  .notice {
-    font-size: 16px;
-    margin: 15px 0;
+    margin: 150px 0;
+    margin-left: 70%;
   }
   .button-lastpage {
     color: #ffffff;
     height: 60px;
     width: 8.5vw;
     font-size: 16px;
-    border-radius: 10px;
+    border-radius: 12px;
     background-color: #323232;
     text-align: center;
     vertical-align: middle;
     border: none;
     text-align: center;
-    margin: 0 2% 0 0;
+    margin: 0 6.5% 0 0;
   }
   .button-lastpage:hover {
     background-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 12px;
     border-style: solid;
     border-width: 2px;
     border-color: #541052;
@@ -159,31 +296,288 @@
 
   .button-lastpage:active {
     background-color: #541052;
-    border-radius: 10px;
+    border-radius: 12px;
     color: #ffffff;
   }
   /*checkbox*/
-  input[type="checkbox"] {
-    display: inline-block;
-    padding: 3px 6px;
-    border: 1px solid #541052;
-    user-select: none;
-  }
-
-  input[type="checkbox"]:checked {
-    color: #ffffff;
-    background-color: #541052;
+  .receive input[type="checkbox"] {
+    accent-color: #541052;
   }
   /*radio*/
   input[type="radio"] {
     display: inline-block;
-    padding: 3px 6px;
+    padding: 1%;
     border: 1px solid #541052;
     user-select: none;
+
+    accent-color: #541052;
   }
-  /*dropdown*/
-  .dropdown {
+  input[type="radio"]:checked {
     display: inline-block;
+    padding: 1%;
+    border: 1px solid #541052;
+    color: #541052;
+    user-select: none;
+  }
+
+  /*bottom-contents*/
+  .bottom-contents {
+    color: #323232;
+    font-size: 16px;
+    text-align: center;
+    line-height: 28.8px;
+    margin: 50px auto;
+    display: block;
+  }
+  .bottom-contents p {
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .data {
+    margin: 50px 10%;
+    color: #541052;
+    font-size: 24px;
+  }
+  .title-data {
+    margin: 70px 0 70px 0;
+  }
+  .line {
+    margin: 30px 0;
+    display: block;
+  }
+  .notice {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+  /*標題*/
+  .title-data {
+    padding: 36px 1%;
+    font-size: 24px;
+    color: #000000;
+    background-color: #dcdcdc;
+    display: block;
+    text-align: center;
+  }
+  /*input-text字級*/
+  input::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+  /*input-text設定*/
+  input[type="text"] {
+    border: #8b8b8b solid 3px;
+    border-radius: 12px;
+    display: block;
+    width: 100%;
+    margin-bottom: 7px;
+  }
+  .tax-id input[type="text"] {
+    border: #8b8b8b solid 3px;
+    border-radius: 12px;
+    display: inline-block;
+    width: 100%;
+    margin-left: 51.5%;
+  }
+
+  input[type="text"]:hover {
+    border: #541052 solid 3px;
+    border-radius: 12px;
+  }
+  input[type="text"]:active {
+    border: #541052 solid 3px;
+    background-color: #f0f0f0;
+    border-radius: 12px;
+  }
+  /*上半*/
+  /*第一行*/
+  .firstline-left {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .firstline-right {
+    display: inline-block;
+    width: 50%;
+    margin-left: 27%;
+    text-align: center;
+  }
+  .firstline-middle {
+    display: inline-block;
+    width: 20%;
+    margin-top: 20px;
+  }
+  .inline-p {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+  }
+  .firstline-right label {
+    width: 25%;
+    padding: 0;
+    display: inline-block;
+  }
+
+  /*第二行*/
+  .second-line .inline-p {
+    margin-right: 4%;
+  }
+  /*第三行*/
+  .thirdline-right,
+  .thirdline-left {
+    display: block;
+    width: 100%;
+  }
+  /*第四行*/
+  .forth-line .inline-p {
+    margin-right: 4%;
+  }
+  .forthline-right {
+    display: inline-block;
+    width: 100%;
+  }
+
+  /*dropdown*/
+  .btn {
+    border: 2px solid #8b8b8b;
+    background-color: #fff;
+    color: #8b8b8b;
+    font-size: 16px;
+    width: 95%;
+  }
+  .dropdown-one {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .dropdown-two {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  /*下半*/
+  /*第一行*/
+  .first-line-left {
+    display: inline-block;
+    width: 49%;
+  }
+  .first-line-right {
+    display: inline-block;
+
+    margin-top: 48px;
+  }
+
+  .first-line-left,
+  .first-line-right {
+    vertical-align: top;
+  }
+  .first-line-bottom .inline-p {
+    margin-right: 4%;
+  }
+  .first-line-right {
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+  }
+  .first-line-right label {
+    width: 25%;
+    padding: 0;
+  }
+
+  /*第五行*/
+  .fifth-line .inline-p {
+    display: block;
+  }
+  .fifth-line-left,
+  .fifth-line-right {
+    display: block;
+    width: 20%;
+  }
+  .fifth-line-right {
+    display: inline-block;
+    width: 90%;
+    text-align: left;
+  }
+  .fifth-line-right label {
+    padding: 0;
+    margin: 10px 0 0 2%;
+  }
+  /*第六行*/
+
+  .tax-id {
+    display: inline-block;
+    width: 40%;
+    margin-left: 20%;
+  }
+  /*第七行*/
+  .last-line .inline-p {
+    margin-right: 9%;
+  }
+
+  /*button*/
+  .button {
+    margin: 200px 0 70px 0;
+  }
+  .button p {
+    display: none;
+  }
+  .button-lastpage {
+    color: #ffffff;
+    height: 60px;
+    width: 30vw;
+    font-size: 16px;
+    border-radius: 12px;
+    background-color: #323232;
+    text-align: center;
+    border: none;
+    display: block;
+    margin: 20px 32%;
+  }
+  .button-lastpage:hover {
+    background-color: #ffffff;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #541052;
+    color: #541052;
+  }
+
+  .button-lastpage:active {
+    background-color: #541052;
+    border-radius: 12px;
+    color: #ffffff;
+  }
+  /*checkbox*/
+  .receive input[type="checkbox"] {
+    accent-color: #541052;
+  }
+  /*radio*/
+  input[type="radio"] {
+    display: inline-block;
+    border: 1px solid #541052;
+    user-select: none;
+    accent-color: #541052;
+  }
+  .firstline input[type="radio"] {
+    display: inline-block;
+    border: 1px solid #541052;
+    user-select: none;
+    accent-color: #541052;
+    margin: 15%;
+  }
+  .fifth-line-right input[type="radio"] {
+    display: inline-block;
+    border: 1px solid #541052;
+    user-select: none;
+    accent-color: #541052;
+  }
+  input[type="radio"]:checked {
+    display: inline-block;
+    padding: 1%;
+    border: 1px solid #541052;
+    color: #541052;
+    user-select: none;
   }
   /*bottom-contents*/
   .bottom-contents {
@@ -192,6 +586,7 @@
     text-align: center;
     line-height: 28.8px;
     margin: 50px auto;
+    display: block;
   }
   .bottom-contents p {
     margin: 0;
