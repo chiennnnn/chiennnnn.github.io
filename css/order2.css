@@ -51,10 +51,6 @@ p {
   font-family: "Basic", sans-serif;
 }
 
-#order-dpmenu {
-  width: 96%;
-}
-
 .productsKind {
   width: 100%;
   display: flex;
@@ -89,7 +85,7 @@ p {
 }
 
 /*dropdown*/
-.dropdown {
+.order2dropdown {
   width: 50%;
 }
 
@@ -98,18 +94,18 @@ p {
   padding-right: 5%;
   background-color: #8b8b8b;
 }
-.btn-secondary {
+.order2dropdown .btn-secondary {
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #541052;
 }
-.btn {
+.order2dropdown .btn {
   border: 2px solid #8b8b8b;
   background-color: #fff;
   color: #8b8b8b;
   font-size: 18px;
   width: 95%;
 }
-.btn:active {
+.order2dropdown .btn:active {
   background-color: #541052;
   color: #ffffff;
 }
@@ -158,7 +154,7 @@ input {
   background: #ffffff;
 }
 
-.menu {
+.order2menu {
   background-color: #ffffff;
   max-height: 0;
   overflow: scroll;
@@ -168,12 +164,12 @@ input {
   width: 25%;
 }
 
-.menu li {
+.order2menu li {
   padding-top: 3px;
   padding-bottom: 3px;
 }
 
-.menu a {
+.order2menu a {
   display: block;
   font-size: 18px;
   color: #5d5d5d;
@@ -183,12 +179,12 @@ input {
   left: 0;
   line-height: 2.1;
 }
-.menu li:hover {
+.order2menu li:hover {
   background: #d9d9d9;
   color: #ffffff;
 }
 
-input:checked ~ .menu {
+input:checked ~ .order2menu {
   max-height: 300px;
   margin-top: 50px;
   border: 2px solid #efefef;
@@ -333,31 +329,31 @@ ul {
     vertical-align: middle;
     margin: 6px 10vw 0 -9vw;
   }
-  .btn,
+  .order2dropdown .btn,
   .dropdown-menu,
-  .menu a {
+  .order2menu a {
     text-decoration: none;
     font-size: 14px;
   }
   .order-nav {
     width: 20%;
   }
-  .btn {
+  .order2dropdown .btn {
     border: 1px solid #8b8b8b;
   }
   .dropdown-menu {
     border: 1px solid #8b8b8b;
   }
-  .menu {
+  .order2menu {
     right: 40%;
     width: 30%;
   }
-  .menu a {
+  .order2menu a {
     text-align: center;
     left: 0;
     line-height: 2;
   }
-  .menu li {
+  .order2menu li {
     padding: 3%;
   }
   a#order-dpitem {
