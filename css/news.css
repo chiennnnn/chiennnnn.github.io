@@ -458,11 +458,25 @@ a {
 
   .news-block {
     width: 80%;
+    margin-bottom: 44px;
     padding: 35px 1%;
     background-color: #f0f0f0;
     margin-top: -3px;
     margin-right: 2%;
     margin-left: 2%;
     min-height: 716px;
+  }
+}
+
+@media (max-width: 375px) {
+  .news-block {
+    width: 85%;
+    padding: 35px 1%;
+    background-color: #f0f0f0;
+    margin-top: -3px;
+    margin-right: 2%;
+    margin-left: 2%;
+    min-height: 716px;
+    margin-bottom: 20px;
   }
 }
