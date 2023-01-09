@@ -263,17 +263,29 @@ body {
 
 @media (max-width: 767px) {
   .navbar-nav {
-    margin-left: 80%;
+    margin-left: 57%;
     background-color: #541052;
-    width: 18%;
+    width: 21%;
+    height: 100vh;
+    margin-left: 80%;
   }
 
-  .nav-link {
+  .nav-link,
+  .dropdown-item {
     font-size: 20px;
   }
 
   .nav-item img {
-    width: 40%;
+    width: 68%;
+    padding-left: 40%;
+  }
+
+  .dropdown-item {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-bottom: 6px;
+    padding-right: 0px;
+    padding-left: 12%;
   }
 
   .navbar-brand img {
@@ -284,16 +296,41 @@ body {
 
   .navbar-brand {
     margin-right: 0;
-    height: 100px;
+    height: 81px;
     width: 22%;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url(../img/menu_FILL0_wght400_GRAD0_opsz48.svg);
+    width: 2em;
+    margin-bottom: 8px;
+  }
+
+  .container-fluid {
+    padding-right: 0;
   }
 }
 
 @media (max-width: 576px) {
   .navbar-nav {
-    margin-left: 73%;
+    margin-left: 57%;
     background-color: #541052;
-    width: 24%;
+    width: 39%;
+    height: 100vh;
+    margin-left: 65%;
+  }
+
+  .nav-link,
+  .dropdown-item {
+    font-size: 20px;
+  }
+
+  .dropdown-item {
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 6px;
+    padding-right: 0px;
+    padding-left: 5%;
   }
 
   .nav-item img {
@@ -305,18 +342,18 @@ body {
     padding-top: 18px;
   }
 
-  .navbar-brand {
-    margin-right: 0;
-    height: 100px;
-    width: 22%;
+  .container-fluid {
+    padding-right: 0;
   }
 }
 
 @media (max-width: 485px) {
   .navbar-nav {
-    margin-left: 66%;
+    margin-left: 57%;
     background-color: #541052;
-    width: 30%;
+    width: 39%;
+    height: 100vh;
+    margin-left: 65%;
   }
 
   .nav-item img {
@@ -333,17 +370,23 @@ body {
     height: 100px;
     width: 22%;
   }
+  .container-fluid {
+    padding-right: 0;
+  }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 375px) {
   .navbar-nav {
-    margin-left: 56%;
+    margin-left: 57%;
     background-color: #541052;
     width: 39%;
+    height: 100vh;
+    margin-left: 65%;
   }
 
   .nav-item img {
-    width: 40%;
+    width: 85%;
+    padding-left: 47%;
   }
 
   .navbar-brand img {
@@ -353,7 +396,17 @@ body {
 
   .navbar-brand {
     margin-right: 0;
-    height: 100px;
+    height: 80px;
     width: 22%;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url(../img/menu_FILL0_wght400_GRAD0_opsz48.svg);
+    width: 2em;
+    margin-bottom: 9px;
+  }
+
+  .container-fluid {
+    padding-right: 0;
   }
 }
