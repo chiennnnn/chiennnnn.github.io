@@ -8,6 +8,7 @@
   src: url(../font/ttf//GenJyuuGothicX-Regular.ttf) format("truetype"),
     url(../font/eot/GenJyuuGothicX-Normal.eot) format("embedded-opentype");
 }
+/*第二區 購物流程*/
 
 .main-patterens {
   width: 80%;
@@ -36,7 +37,7 @@
   display: block;
   margin: 0 auto;
 }
-.patterens .circles1 p {
+.patterens .circles2 p {
   font-size: 24px;
   color: #541052;
 }
