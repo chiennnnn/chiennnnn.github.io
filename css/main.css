@@ -321,7 +321,7 @@ h2{
     background-repeat: no-repeat,
                        no-repeat;
 
-    height: 4940px;
+    height: 5070px;
 
     background-position: 0 0,
                          100% 99%;
@@ -400,12 +400,12 @@ h2{
         list-style:none;
     }
 
-    .lavul .lavli{
-        width:72%;
-        float:left;
-        margin-left: 9%;
-        line-height:20px;
-    }
+    .lavul .lavli {
+    width: 77%;
+    float: left;
+    margin-left: 8%;
+    line-height: 20px;
+}
 
     .lavli p{
     width: 90%;
@@ -468,7 +468,32 @@ h2{
   }
     }
 
-    
+@media (max-width: 375px){
+   .lavul .lavli {
+    width: 96%;
+    float: left;
+    margin-left: -4%;
+    line-height: 20px;
+    }
+
+    .lavli {
+    width: 27%;
+    margin-right: 2.3%;
+    margin-left: 2.3%;
+    margin-bottom: 41px;
+    float: left;
+    background-color: #ffffff;
+    box-shadow: 10px 12px 25px rgb(0 0 0 / 15%);
+    }
+
+    .pic {
+    background-image: url(../img/Vector\ 2.png), url(../img/Vector\ 4.png);
+    background-size: 50%, 86%;
+    background-repeat: no-repeat, no-repeat;
+    height: 3805px;
+    background-position: 0 0, 100% 99%;
+    }
+}
 
 
 /*.lav{
@@ -544,21 +569,3 @@ h2{
     
 }
 .lvtitle{
-    font-size: 24px;
-    padding-top: 34px;
-    text-align: center;
-}
-
-.lvcontents1, .lvcontents2, .lvcontents3{
-    width: 380px;
-    padding-top: 34px;
-    padding-left: 42px;
-    padding-bottom: 65px;
-    line-height: 24px;
-}
-
-
-.button{
-    padding-bottom: 57px;
-    padding-left: 140px;
-}＊/
